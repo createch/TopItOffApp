@@ -18,6 +18,7 @@
 		C19BB9FB1763CF67005C509E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19BB9FA1763CF67005C509E /* Default-568h@2x.png */; };
 		C19BB9FE1763CF67005C509E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19BB9FC1763CF67005C509E /* MainStoryboard.storyboard */; };
 		C19BBA011763CF67005C509E /* TOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BBA001763CF67005C509E /* TOViewController.m */; };
+		C1C749481763D334009135A5 /* crosshairs.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C749471763D334009135A5 /* crosshairs.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C19BB9FD1763CF67005C509E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C19BB9FF1763CF67005C509E /* TOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOViewController.h; sourceTree = "<group>"; };
 		C19BBA001763CF67005C509E /* TOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOViewController.m; sourceTree = "<group>"; };
+		C1C749471763D334009135A5 /* crosshairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshairs.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C19BB9D81763CF67005C509E = {
 			isa = PBXGroup;
 			children = (
+				C1C749461763D334009135A5 /* Assets */,
 				C19BB9EA1763CF67005C509E /* TopItOff */,
 				C19BB9E31763CF67005C509E /* Frameworks */,
 				C19BB9E21763CF67005C509E /* Products */,
@@ -105,6 +108,15 @@
 				C19BB9FA1763CF67005C509E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C749461763D334009135A5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C1C749471763D334009135A5 /* crosshairs.png */,
+			);
+			name = Assets;
+			path = TopItOff/Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +176,7 @@
 				C19BB9F91763CF67005C509E /* Default@2x.png in Resources */,
 				C19BB9FB1763CF67005C509E /* Default-568h@2x.png in Resources */,
 				C19BB9FE1763CF67005C509E /* MainStoryboard.storyboard in Resources */,
+				C1C749481763D334009135A5 /* crosshairs.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +312,7 @@
 				C19BBA061763CF67005C509E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
