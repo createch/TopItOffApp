@@ -19,6 +19,8 @@
 		C19BB9FE1763CF67005C509E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19BB9FC1763CF67005C509E /* MainStoryboard.storyboard */; };
 		C19BBA011763CF67005C509E /* TOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BBA001763CF67005C509E /* TOViewController.m */; };
 		C1C749481763D334009135A5 /* crosshairs.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C749471763D334009135A5 /* crosshairs.png */; };
+		C1C7494C176423D2009135A5 /* TOAirportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C7494B176423D2009135A5 /* TOAirportsViewController.m */; };
+		C1C7494E176425C6009135A5 /* gas_json.json in Resources */ = {isa = PBXBuildFile; fileRef = C1C7494D176425C6009135A5 /* gas_json.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		C19BB9FF1763CF67005C509E /* TOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOViewController.h; sourceTree = "<group>"; };
 		C19BBA001763CF67005C509E /* TOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOViewController.m; sourceTree = "<group>"; };
 		C1C749471763D334009135A5 /* crosshairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshairs.png; sourceTree = "<group>"; };
+		C1C7494A176423D2009135A5 /* TOAirportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOAirportsViewController.h; sourceTree = "<group>"; };
+		C1C7494B176423D2009135A5 /* TOAirportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOAirportsViewController.m; sourceTree = "<group>"; };
+		C1C7494D176425C6009135A5 /* gas_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gas_json.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,8 @@
 				C19BB9FC1763CF67005C509E /* MainStoryboard.storyboard */,
 				C19BB9FF1763CF67005C509E /* TOViewController.h */,
 				C19BBA001763CF67005C509E /* TOViewController.m */,
+				C1C7494A176423D2009135A5 /* TOAirportsViewController.h */,
+				C1C7494B176423D2009135A5 /* TOAirportsViewController.m */,
 				C19BB9EB1763CF67005C509E /* Supporting Files */,
 			);
 			path = TopItOff;
@@ -113,6 +120,7 @@
 		C1C749461763D334009135A5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C1C7494D176425C6009135A5 /* gas_json.json */,
 				C1C749471763D334009135A5 /* crosshairs.png */,
 			);
 			name = Assets;
@@ -177,6 +185,7 @@
 				C19BB9FB1763CF67005C509E /* Default-568h@2x.png in Resources */,
 				C19BB9FE1763CF67005C509E /* MainStoryboard.storyboard in Resources */,
 				C1C749481763D334009135A5 /* crosshairs.png in Resources */,
+				C1C7494E176425C6009135A5 /* gas_json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +199,7 @@
 				C19BB9F11763CF67005C509E /* main.m in Sources */,
 				C19BB9F51763CF67005C509E /* TOAppDelegate.m in Sources */,
 				C19BBA011763CF67005C509E /* TOViewController.m in Sources */,
+				C1C7494C176423D2009135A5 /* TOAirportsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
