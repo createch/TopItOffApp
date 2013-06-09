@@ -19,6 +19,35 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+    JSONDecoder *decoder = [[JSONDecoder alloc] initWithParseOptions:JKParseOptionStrict];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource: @"gas_json"
+                                                     ofType: @"json"];
+    
+
+    NSError *dataError;
+        NSData *json = [[NSData alloc] initWithContentsOfFile:path
+                                                      options:0
+                                                        error:&dataError];
+        
+        if (dataError)
+            NSLog(@"Error: %@", dataError);
+        
+        stationsData = [decoder mutableObjectWithData:json];
+        
+//        NSLog(@"arrivals: %@", stationsData);
+        
+   
     }
     return self;
 }
@@ -26,6 +55,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"Hai hai hai!");
+    
 
     // Uncomment the following line to preserve se  lection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -44,21 +75,21 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+//    NSLog(@"%d", [stationsData count]);
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    if (section == 0)
+        return 1;
+    return [stationsData count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"airportCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
