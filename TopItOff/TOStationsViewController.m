@@ -39,9 +39,10 @@
 
 - (void)viewDidLoad
 {
-    NSLog(@"view did load");
+    NSLog(@"view did load with stations: %@", stations);
 
     [super viewDidLoad];
+    self.navigationItem.title = [stations objectAtIndex:0][@"airport"];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -56,18 +57,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     NSLog(@"stations: %@", stations);
 //    NSLog(@"count: %d", stations[@"stations"]);
@@ -79,10 +76,22 @@
     static NSString *CellIdentifier = @"stationCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    UILabel *label = (UILabel *)[cell viewWithTag:0];
-//    label.text = [stations objectAtIndex:indexPath.row];
-    NSLog(@"station name: %@", stations);
-
+    id cellStationData = [[stations objectAtIndex:indexPath.row][@"stations"] objectAtIndex:indexPath.row];
+    id cellData = [stations objectAtIndex:indexPath.row];
+    
+    
+    UILabel *gasName = (UILabel *)[cell viewWithTag:1];
+    UILabel *directions = (UILabel *)[cell viewWithTag:3];
+    UILabel *address = (UILabel *)[cell viewWithTag:4];
+    
+//    NSLog(@"indexPath: %@ cellData: %@", indexPath, cellData);
+    directions.text = cellData[@"directions"];
+    gasName.text = cellStationData[@"gas_name"];
+    address.text = cellStationData[@"address"];
+    
+    NSLog(@"directions: %@", directions.text);
+    
+    
     
     // Configure the cell...
     
@@ -139,6 +148,42 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+
+- (IBAction)showMap:(id)sender {
+    
+    NSLog(@"sender: %@", sender);
+    CGPoint buttonPosition = [sender convertPoint:CGPointZero toView:self.tableView];
+    NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:buttonPosition];
+    
+    id cellStationData = [[stations objectAtIndex:indexPath.row][@"stations"] objectAtIndex:indexPath.row];
+    id cellData = [stations objectAtIndex:indexPath.row];
+    
+    CLLocationDegrees lon = [cellStationData[@"lon"] doubleValue];
+    CLLocationDegrees lat = [cellStationData[@"lat"] doubleValue];
+    NSLog(@"lon: %f %f", lon, lat);
+
+    
+    //first create latitude longitude object
+    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(lat,lon);
+    
+    //create MKMapItem out of coordinates
+    MKPlacemark* placeMark = [[MKPlacemark alloc] initWithCoordinate:coordinate addressDictionary:nil];
+    MKMapItem* destination =  [[MKMapItem alloc] initWithPlacemark:placeMark];
+    
+    if([destination respondsToSelector:@selector(openInMapsWithLaunchOptions:)])
+    {
+        //using iOS6 native maps app
+        [destination openInMapsWithLaunchOptions:@{MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving}];
+    }
+    else
+    {
+        //using iOS 5 which has the Google Maps application
+        NSString* url = [NSString stringWithFormat: @"http://maps.google.com/maps?saddr=Current+Location&daddr=%f,%f", lat, lon];
+        [[UIApplication sharedApplication] openURL: [NSURL URLWithString: url]];
+    }
+    
+    NSLog(@"indexPath: %@", indexPath);
 }
 
 @end

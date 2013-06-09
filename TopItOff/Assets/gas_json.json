@@ -1,1 +1,1534 @@
-{"Logan International": [{"city": "Boston", "airport": "Logan International", "code": "BOS", "id": 28, "stations": [{"lat": "-71.023645", "code": "BOS", "lon": "42.369515", "gas_name": "Gulf"}]}], "George Bush Intercontinental Airport": [{"city": "Houston", "airport": "George Bush Intercontinental Airport", "code": "IAH", "id": 15, "stations": [{"lat": "-95.332169", "code": "IAH", "lon": "29.951038", "gas_name": "Exxon"}]}], "San Diego International": [{"city": "San Diego", "airport": "San Diego International", "code": "SAN", "id": 42, "stations": [{"lat": "117.173531", "code": "SAN", "lon": "32.729901", "gas_name": "Shell Pacfic Highway"}, {"lat": "-117.181413", "code": "SAN", "lon": "32.742911", "gas_name": "Mobil"}]}, {"city": "San Diego", "airport": "San Diego International", "code": "SAN", "id": 43, "stations": [{"lat": "117.173531", "code": "SAN", "lon": "32.729901", "gas_name": "Shell Pacfic Highway"}, {"lat": "-117.181413", "code": "SAN", "lon": "32.742911", "gas_name": "Mobil"}]}], "William P. Hobby Airport": [{"city": "Houston", "airport": "William P. Hobby Airport", "code": "HOU", "id": 56, "stations": [{"lat": "-95.289338", "code": "HOU", "lon": "29.656123", "gas_name": "Chervon"}, {"lat": "-95.263437", "code": "HOU", "lon": "29.654942", "gas_name": "Airport shell"}]}, {"city": "Houston", "airport": "William P. Hobby Airport", "code": "HOU", "id": 57, "stations": [{"lat": "-95.289338", "code": "HOU", "lon": "29.656123", "gas_name": "Chervon"}, {"lat": "-95.263437", "code": "HOU", "lon": "29.654942", "gas_name": "Airport shell"}]}], "McCarran International": [{"city": "Las Vegas", "airport": "McCarran International", "code": "LAS", "id": 12, "stations": [{"lat": "-115.163526", "code": "LAS", "lon": "36.101308", "gas_name": "Rebel"}, {"lat": "115.172382", "code": "LAS", "lon": "36.056572", "gas_name": "Terribles"}]}, {"city": "Las Vegas", "airport": "McCarran International", "code": "LAS", "id": 13, "stations": [{"lat": "-115.163526", "code": "LAS", "lon": "36.101308", "gas_name": "Rebel"}, {"lat": "115.172382", "code": "LAS", "lon": "36.056572", "gas_name": "Terribles"}]}], "Los Angeles International": [{"city": "Los Angeles", "airport": "Los Angeles International", "code": "LAX", "id": 6, "stations": [{"lat": "-118.378098", "code": "LAX", "lon": "33.945786", "gas_name": "Shell"}, {"lat": "-118.396110", "code": "LAX", "lon": "33.916286", "gas_name": "Chevron"}]}, {"city": "Los Angeles", "airport": "Los Angeles International", "code": "LAX", "id": 7, "stations": [{"lat": "-118.378098", "code": "LAX", "lon": "33.945786", "gas_name": "Shell"}, {"lat": "-118.396110", "code": "LAX", "lon": "33.916286", "gas_name": "Chevron"}]}], "Fort Lauderdale/Hollywood International": [{"city": "Fort Lauderdale", "airport": "Fort Lauderdale/Hollywood International", "code": "FLL", "id": 31, "stations": [{"lat": "-80.161307", "code": "FLL", "lon": "26.089901", "gas_name": "7-Eleven"}]}, {"city": "Fort Lauderdale", "airport": "Fort Lauderdale/Hollywood International", "code": "FLL", "id": 32, "stations": [{"lat": "-80.161307", "code": "FLL", "lon": "26.089901", "gas_name": "7-Eleven"}]}], "Seattle-Tacoma International": [{"city": "Seattle", "airport": "Seattle-Tacoma International", "code": "SEA", "id": 23, "stations": [{"lat": "-122.296036", "code": "SEA", "lon": "47.450311", "gas_name": "Circle K/Shell"}, {"lat": "-122.288329", "code": "SEA", "lon": "47.466497", "gas_name": "Arco AM/PM"}]}, {"city": "Seattle", "airport": "Seattle-Tacoma International", "code": "SEA", "id": 24, "stations": [{"lat": "-122.296036", "code": "SEA", "lon": "47.450311", "gas_name": "Circle K/Shell"}, {"lat": "-122.288329", "code": "SEA", "lon": "47.466497", "gas_name": "Arco AM/PM"}]}], "Lambert-St. Louis International": [{"city": "St. Louis", "airport": "Lambert-St. Louis International", "code": "STL", "id": 49, "stations": [{"lat": "-90.405934", "code": "STL", "lon": "38.741183", "gas_name": "QuickTrip"}, {"lat": "-90.364659", "code": "STL", "lon": "38.737940", "gas_name": "BP"}, {"lat": "-90.346546", "code": "STL", "lon": "38.729610", "gas_name": "Petromart"}, {"lat": "-90.330633", "code": "STL", "lon": "38.718769", "gas_name": "Quicktrup"}]}, {"city": "St. Louis", "airport": "Lambert-St. Louis International", "code": "STL", "id": 50, "stations": [{"lat": "-90.405934", "code": "STL", "lon": "38.741183", "gas_name": "QuickTrip"}, {"lat": "-90.364659", "code": "STL", "lon": "38.737940", "gas_name": "BP"}, {"lat": "-90.346546", "code": "STL", "lon": "38.729610", "gas_name": "Petromart"}, {"lat": "-90.330633", "code": "STL", "lon": "38.718769", "gas_name": "Quicktrup"}]}, {"city": "St. Louis", "airport": "Lambert-St. Louis International", "code": "STL", "id": 51, "stations": [{"lat": "-90.405934", "code": "STL", "lon": "38.741183", "gas_name": "QuickTrip"}, {"lat": "-90.364659", "code": "STL", "lon": "38.737940", "gas_name": "BP"}, {"lat": "-90.346546", "code": "STL", "lon": "38.729610", "gas_name": "Petromart"}, {"lat": "-90.330633", "code": "STL", "lon": "38.718769", "gas_name": "Quicktrup"}]}, {"city": "St. Louis", "airport": "Lambert-St. Louis International", "code": "STL", "id": 52, "stations": [{"lat": "-90.405934", "code": "STL", "lon": "38.741183", "gas_name": "QuickTrip"}, {"lat": "-90.364659", "code": "STL", "lon": "38.737940", "gas_name": "BP"}, {"lat": "-90.346546", "code": "STL", "lon": "38.729610", "gas_name": "Petromart"}, {"lat": "-90.330633", "code": "STL", "lon": "38.718769", "gas_name": "Quicktrup"}]}, {"city": "St. Louis", "airport": "Lambert-St. Louis International", "code": "STL", "id": 53, "stations": [{"lat": "-90.405934", "code": "STL", "lon": "38.741183", "gas_name": "QuickTrip"}, {"lat": "-90.364659", "code": "STL", "lon": "38.737940", "gas_name": "BP"}, {"lat": "-90.346546", "code": "STL", "lon": "38.729610", "gas_name": "Petromart"}, {"lat": "-90.330633", "code": "STL", "lon": "38.718769", "gas_name": "Quicktrup"}]}, {"city": "St. Louis", "airport": "Lambert-St. Louis International", "code": "STL", "id": 54, "stations": [{"lat": "-90.405934", "code": "STL", "lon": "38.741183", "gas_name": "QuickTrip"}, {"lat": "-90.364659", "code": "STL", "lon": "38.737940", "gas_name": "BP"}, {"lat": "-90.346546", "code": "STL", "lon": "38.729610", "gas_name": "Petromart"}, {"lat": "-90.330633", "code": "STL", "lon": "38.718769", "gas_name": "Quicktrup"}]}], "Newark Liberty International": [{"city": "Newark", "airport": "Newark Liberty International", "code": "EWR", "id": 22, "stations": [{"lat": "-74.766836", "code": "EWR", "lon": "40.434039", "gas_name": "Gulf (24h)"}]}], "Kansas City International": [{"city": "Kansas City", "airport": "Kansas City International", "code": "KCI", "id": 55, "stations": [{"lat": "-94.710818", "code": "KCI", "lon": "39.301904", "gas_name": "KCI Car Care Center"}]}], "Honolulu International": [{"city": "Honolulu", "airport": "Honolulu International", "code": "HNL", "id": 41, "stations": [{"lat": "-157.902115", "code": "HNL", "lon": "21.332891", "gas_name": "Shell"}]}], "Portland International": [{"city": "Portland", "airport": "Portland International", "code": "PDX", "id": 46, "stations": [{"lat": "-122.560404", "code": "PDX", "lon": "45.559330", "gas_name": "Shell"}, {"lat": "-122.564664", "code": "PDX", "lon": "45.621436", "gas_name": "76 Station/Richy\u2019s Tire Factory"}]}, {"city": "Portland", "airport": "Portland International", "code": "PDX", "id": 47, "stations": [{"lat": "-122.560404", "code": "PDX", "lon": "45.559330", "gas_name": "Shell"}, {"lat": "-122.564664", "code": "PDX", "lon": "45.621436", "gas_name": "76 Station/Richy\u2019s Tire Factory"}]}, {"city": "Portland", "airport": "Portland International", "code": "PDX", "id": 48, "stations": [{"lat": "-122.560404", "code": "PDX", "lon": "45.559330", "gas_name": "Shell"}, {"lat": "-122.564664", "code": "PDX", "lon": "45.621436", "gas_name": "76 Station/Richy\u2019s Tire Factory"}]}], "Philadelphia International": [{"city": "Philadelphia", "airport": "Philadelphia International", "code": "PHL", "id": 27, "stations": [{"lat": "75.236559", "code": "PHL", "lon": "39.894628", "gas_name": "Wawa"}]}], "Washington Dulles International": [{"city": "Washington DC", "airport": "Washington Dulles International", "code": "IAD", "id": 34, "stations": [{"lat": "Dulles", "code": "IAD", "lon": "44910 Rudder Rd", "gas_name": "Exxon/Circle K"}]}], "John F. Kennedy International": [{"city": "New York", "airport": "John F. Kennedy International", "code": "JFK", "id": 10, "stations": [{"lat": "-73.805825", "code": "JFK", "lon": "40.658233", "gas_name": "BP"}]}], "Orlando International": [{"city": "Orlando", "airport": "Orlando International", "code": "MCO", "id": 18, "stations": [{"lat": "-82.564799", "code": "MCO", "lon": "28.081888", "gas_name": "7-Eleven"}, {"lat": "-81.276087", "code": "MCO", "lon": "28.465628", "gas_name": "7-Eleven"}, {"lat": "-81.242761", "code": "MCO", "lon": "28.414216", "gas_name": "7-Eleven"}]}, {"city": "Orlando", "airport": "Orlando International", "code": "MCO", "id": 19, "stations": [{"lat": "-82.564799", "code": "MCO", "lon": "28.081888", "gas_name": "7-Eleven"}, {"lat": "-81.276087", "code": "MCO", "lon": "28.465628", "gas_name": "7-Eleven"}, {"lat": "-81.242761", "code": "MCO", "lon": "28.414216", "gas_name": "7-Eleven"}]}, {"city": "Orlando", "airport": "Orlando International", "code": "MCO", "id": 20, "stations": [{"lat": "-82.564799", "code": "MCO", "lon": "28.081888", "gas_name": "7-Eleven"}, {"lat": "-81.276087", "code": "MCO", "lon": "28.465628", "gas_name": "7-Eleven"}, {"lat": "-81.242761", "code": "MCO", "lon": "28.414216", "gas_name": "7-Eleven"}]}, {"city": "Orlando", "airport": "Orlando International", "code": "MCO", "id": 21, "stations": [{"lat": "-82.564799", "code": "MCO", "lon": "28.081888", "gas_name": "7-Eleven"}, {"lat": "-81.276087", "code": "MCO", "lon": "28.465628", "gas_name": "7-Eleven"}, {"lat": "-81.242761", "code": "MCO", "lon": "28.414216", "gas_name": "7-Eleven"}]}], "Detroit Metropolitan Wayne County ": [{"city": "Detroit", "airport": "Detroit Metropolitan Wayne County ", "code": "DTW", "id": 26, "stations": [{"lat": "-83.327698", "code": "DTW", "lon": "42.238648", "gas_name": "BP"}]}], "Charlotte/Douglas International": [{"city": "Charlotte", "airport": "Charlotte/Douglas International", "code": "CLT", "id": 16, "stations": [{"lat": "-80.942464", "code": "CLT", "lon": "35.235559", "gas_name": "Airport Express Wilkinson Blvd"}]}], "Phoenix Sky Harbor International": [{"city": "Phoenix", "airport": "Phoenix Sky Harbor International", "code": "PHX", "id": 14, "stations": [{"lat": "-112.065477", "code": "PHX", "lon": "33.436824", "gas_name": "Circle K"}]}], "Pittsburgh International": [{"city": "Pittsburgh", "airport": "Pittsburgh International", "code": "PIT", "id": 58, "stations": [{"lat": "-79.545914", "code": "PIT", "lon": "40.633714", "gas_name": "Sunoco"}]}], "San Francisco International": [{"city": "San Francisco", "airport": "San Francisco International", "code": "SFO", "id": 11, "stations": [{"lat": "-122.410072", "code": "SFO", "lon": "37.630630", "gas_name": "Valero"}]}], "LaGuardia Airport": [{"city": "New York", "airport": "LaGuardia Airport", "code": "LGA", "id": 29, "stations": [{"lat": "-73.865137", "code": "LGA", "lon": "40.767915", "gas_name": "Mobil"}, {"lat": "73.883909", "code": "LGA", "lon": "40.764870", "gas_name": "Citgo"}]}, {"city": "New York", "airport": "LaGuardia Airport", "code": "LGA", "id": 30, "stations": [{"lat": "-73.865137", "code": "LGA", "lon": "40.767915", "gas_name": "Mobil"}, {"lat": "73.883909", "code": "LGA", "lon": "40.764870", "gas_name": "Citgo"}]}], "Midway International": [{"city": "Chicago", "airport": "Midway International", "code": "MDW", "id": 37, "stations": [{"lat": "-87.740338", "code": "MDW", "lon": "41.778476", "gas_name": "Midway Gas Mart"}, {"lat": "-87.732838", "code": "MDW", "lon": "41.792983", "gas_name": "7-Eleven"}, {"lat": "-87.732838", "code": "MDW", "lon": "41.792983", "gas_name": "Mobil"}]}, {"city": "Chicago", "airport": "Midway International", "code": "MDW", "id": 38, "stations": [{"lat": "-87.740338", "code": "MDW", "lon": "41.778476", "gas_name": "Midway Gas Mart"}, {"lat": "-87.732838", "code": "MDW", "lon": "41.792983", "gas_name": "7-Eleven"}, {"lat": "-87.732838", "code": "MDW", "lon": "41.792983", "gas_name": "Mobil"}]}, {"city": "Chicago", "airport": "Midway International", "code": "MDW", "id": 39, "stations": [{"lat": "-87.740338", "code": "MDW", "lon": "41.778476", "gas_name": "Midway Gas Mart"}, {"lat": "-87.732838", "code": "MDW", "lon": "41.792983", "gas_name": "7-Eleven"}, {"lat": "-87.732838", "code": "MDW", "lon": "41.792983", "gas_name": "Mobil"}]}], "Denver International": [{"city": "Denver", "airport": "Denver International", "code": "DEN", "id": 9, "stations": []}], "Baltimore-Washington International Thurgood": [{"city": "Baltimore", "airport": "Baltimore-Washington International Thurgood", "code": "BWI", "id": 33, "stations": [{"lat": "-76.704716", "code": "BWI", "lon": "39.158466", "gas_name": "7-Eleven"}]}], "Hartsfield Jackson Atlanta International": [{"city": "Atlanta", "airport": "Hartsfield Jackson Atlanta International", "code": "ATL", "id": 1, "stations": [{"lat": " -84.468228", "code": "ATL", "lon": "33.635040", "gas_name": "Chevron"}]}], "Ronald Reagan Washington National": [{"city": "Washington DC", "airport": "Ronald Reagan Washington National", "code": "DCA", "id": 40, "stations": [{"lat": "-77.052808", "code": "DCA", "lon": "38.853181", "gas_name": "Exxon"}]}], "Miami International": [{"city": "Miami", "airport": "Miami International", "code": "MIA", "id": 17, "stations": [{"lat": "-80.264046", "code": "MIA", "lon": "25.798494", "gas_name": "Shell"}]}], "Dallas/Fort Worth International": [{"city": "Dallas/Fort Worth", "airport": "Dallas/Fort Worth International", "code": "DFW", "id": 8, "stations": [{"lat": "-97.020689", "code": "DFW", "lon": "32.856630", "gas_name": "Valero/Stop&Go"}]}], "Minneapolis-St. Paul International": [{"city": "Minneapolis/St. Paul", "airport": "Minneapolis-St. Paul International", "code": "MSP", "id": 25, "stations": [{"lat": "-93.200133", "code": "MSP", "lon": "44.870302", "gas_name": "SuperAmerica"}]}], "Tampa International": [{"city": "Tampa", "airport": "Tampa International", "code": "TPA", "id": 44, "stations": [{"lat": "-82.531262", "code": "TPA", "lon": "27.952478", "gas_name": "7-Eleven"}, {"lat": "82.552504", "code": "TPA", "lon": "27.996734", "gas_name": "Racetrac"}]}, {"city": "Tampa", "airport": "Tampa International", "code": "TPA", "id": 45, "stations": [{"lat": "-82.531262", "code": "TPA", "lon": "27.952478", "gas_name": "7-Eleven"}, {"lat": "82.552504", "code": "TPA", "lon": "27.996734", "gas_name": "Racetrac"}]}], "O'Hare International": [{"city": "Chicago", "airport": "O'Hare International", "code": "ORD", "id": 2, "stations": [{"lat": "-87.869271", "code": "ORD", "lon": "42.010180", "gas_name": "Mobil"}, {"lat": "-87.921056", "code": "ORD", "lon": "42.015804", "gas_name": "7-Eleven"}, {"lat": "-87.860255", "code": "ORD", "lon": "41.990835", "gas_name": "Mobil"}, {"lat": "-87.883162", "code": "ORD", "lon": "41.952877", "gas_name": "7-Eleven"}]}, {"city": "Chicago", "airport": "O'Hare International", "code": "ORD", "id": 3, "stations": [{"lat": "-87.869271", "code": "ORD", "lon": "42.010180", "gas_name": "Mobil"}, {"lat": "-87.921056", "code": "ORD", "lon": "42.015804", "gas_name": "7-Eleven"}, {"lat": "-87.860255", "code": "ORD", "lon": "41.990835", "gas_name": "Mobil"}, {"lat": "-87.883162", "code": "ORD", "lon": "41.952877", "gas_name": "7-Eleven"}]}, {"city": "Chicago", "airport": "O'Hare International", "code": "ORD", "id": 4, "stations": [{"lat": "-87.869271", "code": "ORD", "lon": "42.010180", "gas_name": "Mobil"}, {"lat": "-87.921056", "code": "ORD", "lon": "42.015804", "gas_name": "7-Eleven"}, {"lat": "-87.860255", "code": "ORD", "lon": "41.990835", "gas_name": "Mobil"}, {"lat": "-87.883162", "code": "ORD", "lon": "41.952877", "gas_name": "7-Eleven"}]}, {"city": "Chicago", "airport": "O'Hare International", "code": "ORD", "id": 5, "stations": [{"lat": "-87.869271", "code": "ORD", "lon": "42.010180", "gas_name": "Mobil"}, {"lat": "-87.921056", "code": "ORD", "lon": "42.015804", "gas_name": "7-Eleven"}, {"lat": "-87.860255", "code": "ORD", "lon": "41.990835", "gas_name": "Mobil"}, {"lat": "-87.883162", "code": "ORD", "lon": "41.952877", "gas_name": "7-Eleven"}]}], "Salt Lake City International": [{"city": "Salt Lake City", "airport": "Salt Lake City International", "code": "SLC", "id": 35, "stations": [{"lat": "-111.940002", "code": "SLC", "lon": "40.771720", "gas_name": "Chevron"}, {"lat": "-112.022508", "code": "SLC", "lon": "40.776209", "gas_name": "Roy\u2019s Phillips 66"}]}, {"city": "Salt Lake City", "airport": "Salt Lake City International", "code": "SLC", "id": 36, "stations": [{"lat": "-111.940002", "code": "SLC", "lon": "40.771720", "gas_name": "Chevron"}, {"lat": "-112.022508", "code": "SLC", "lon": "40.776209", "gas_name": "Roy\u2019s Phillips 66"}]}]}
+{
+    "Logan International": [{
+            "city": "Boston",
+            "code": "BOS",
+            "stations": [{
+                    "city": "Boston",
+                    "code": "BOS",
+                    "lon": "42.369515",
+                    "zipcode": "02128\n",
+                    "gas_name": "Gulf",
+                    "address": "100 Service Rd",
+                    "lat": "-71.023645"
+                }
+            ],
+            "airport": "Logan International",
+            "directions": "Rental car row at airport. Gas station close use: Logan Airport Gulf - 100 Service Road",
+            "id": 28
+        }
+    ],
+    "George Bush Intercontinental Airport": [{
+            "city": "Houston",
+            "code": "IAH",
+            "stations": [{
+                    "city": "Houston",
+                    "code": "IAH",
+                    "lon": "29.951038",
+                    "zipcode": "77032\n",
+                    "gas_name": "Exxon",
+                    "address": "15931 John F Kennedy Blvd",
+                    "lat": "-95.332169"
+                }
+            ],
+            "airport": "George Bush Intercontinental Airport",
+            "directions": "Rental car row at airport all close to this station: Exxon - 15931 John F. Kennedy Blvd",
+            "id": 15
+        }
+    ],
+    "San Diego International": [{
+            "city": "San Diego",
+            "code": "SAN",
+            "stations": [{
+                    "city": "San Diego",
+                    "code": "SAN",
+                    "lon": "32.729901",
+                    "zipcode": "92101\n",
+                    "gas_name": "Shell Pacfic Highway",
+                    "address": "2521 Pacific Hwy",
+                    "lat": "117.173531"
+                }, {
+                    "city": "San Diego",
+                    "code": "SAN",
+                    "lon": "32.742911",
+                    "zipcode": "92103\n",
+                    "gas_name": "Mobil",
+                    "address": "1809 W Washington St",
+                    "lat": "-117.181413"
+                }
+            ],
+            "airport": "San Diego International",
+            "directions": "From the south on I-5 use: Shell - 2521 Pacific Highway",
+            "id": 42
+        }, {
+            "city": "San Diego",
+            "code": "SAN",
+            "stations": [{
+                    "city": "San Diego",
+                    "code": "SAN",
+                    "lon": "32.729901",
+                    "zipcode": "92101\n",
+                    "gas_name": "Shell Pacfic Highway",
+                    "address": "2521 Pacific Hwy",
+                    "lat": "117.173531"
+                }, {
+                    "city": "San Diego",
+                    "code": "SAN",
+                    "lon": "32.742911",
+                    "zipcode": "92103\n",
+                    "gas_name": "Mobil",
+                    "address": "1809 W Washington St",
+                    "lat": "-117.181413"
+                }
+            ],
+            "airport": "San Diego International",
+            "directions": "From the North and east use: Mobil - 1809 West Washington St.\n",
+            "id": 43
+        }
+    ],
+    "William P. Hobby Airport": [{
+            "city": "Houston",
+            "code": "HOU",
+            "stations": [{
+                    "city": "Houston",
+                    "code": "HOU",
+                    "lon": "29.656123",
+                    "zipcode": "77061\n",
+                    "gas_name": "Chervon",
+                    "address": "7050 Telephone Rd",
+                    "lat": "-95.289338"
+                }, {
+                    "city": "Houston",
+                    "code": "HOU",
+                    "lon": "29.654942",
+                    "zipcode": "77061\n",
+                    "gas_name": "Airport shell",
+                    "address": "8610 Airport Blvd",
+                    "lat": "-95.263437"
+                }
+            ],
+            "airport": "William P. Hobby Airport",
+            "directions": "All Eastbound on Airport Blvd to rental car rows can use: Chevron - 7050 Telephone Rd.  \n",
+            "id": 56
+        }, {
+            "city": "Houston",
+            "code": "HOU",
+            "stations": [{
+                    "city": "Houston",
+                    "code": "HOU",
+                    "lon": "29.656123",
+                    "zipcode": "77061\n",
+                    "gas_name": "Chervon",
+                    "address": "7050 Telephone Rd",
+                    "lat": "-95.289338"
+                }, {
+                    "city": "Houston",
+                    "code": "HOU",
+                    "lon": "29.654942",
+                    "zipcode": "77061\n",
+                    "gas_name": "Airport shell",
+                    "address": "8610 Airport Blvd",
+                    "lat": "-95.263437"
+                }
+            ],
+            "airport": "William P. Hobby Airport",
+            "directions": "All Westbound on Airport Blvd use Airport Shell - 8610 Airport Blvd.\n",
+            "id": 57
+        }
+    ],
+    "McCarran International": [{
+            "city": "Las Vegas",
+            "code": "LAS",
+            "stations": [{
+                    "city": "Las Vegas",
+                    "code": "LAS",
+                    "lon": "36.101308",
+                    "zipcode": "89169\n",
+                    "gas_name": "Rebel",
+                    "address": "208 E Tropicana Ave",
+                    "lat": "-115.163526"
+                }, {
+                    "city": " Las Vegas",
+                    "code": "LAS",
+                    "lon": "36.056572",
+                    "zipcode": "89123\n",
+                    "gas_name": "Terribles",
+                    "address": "7310 South Las Vegas Blvd",
+                    "lat": "115.172382"
+                }
+            ],
+            "airport": "McCarran International",
+            "directions": "If rental agency is on airport property",
+            "id": 12
+        }, {
+            "city": "Las Vegas",
+            "code": "LAS",
+            "stations": [{
+                    "city": "Las Vegas",
+                    "code": "LAS",
+                    "lon": "36.101308",
+                    "zipcode": "89169\n",
+                    "gas_name": "Rebel",
+                    "address": "208 E Tropicana Ave",
+                    "lat": "-115.163526"
+                }, {
+                    "city": " Las Vegas",
+                    "code": "LAS",
+                    "lon": "36.056572",
+                    "zipcode": "89123\n",
+                    "gas_name": "Terribles",
+                    "address": "7310 South Las Vegas Blvd",
+                    "lat": "115.172382"
+                }
+            ],
+            "airport": "McCarran International",
+            "directions": "If rental agency is south of the airport in the cluster on Gilespie Street",
+            "id": 13
+        }
+    ],
+    "Los Angeles International": [{
+            "city": "Los Angeles",
+            "code": "LAX",
+            "stations": [{
+                    "city": "Los Angeles",
+                    "code": "LAX",
+                    "lon": "33.945786",
+                    "zipcode": "90045\n",
+                    "gas_name": "Shell",
+                    "address": "5551 W Century Blvd",
+                    "lat": "-118.378098"
+                }, {
+                    "city": "El Segundo",
+                    "code": "LAX",
+                    "lon": "33.916286",
+                    "zipcode": "90245\n",
+                    "gas_name": "Chevron",
+                    "address": "101 S Sepulveda Blvd",
+                    "lat": "-118.396110"
+                }
+            ],
+            "airport": "Los Angeles International",
+            "directions": "For airport onsite car rentals use: Shell - 5551 West Century Blvd",
+            "id": 6
+        }, {
+            "city": "Los Angeles",
+            "code": "LAX",
+            "stations": [{
+                    "city": "Los Angeles",
+                    "code": "LAX",
+                    "lon": "33.945786",
+                    "zipcode": "90045\n",
+                    "gas_name": "Shell",
+                    "address": "5551 W Century Blvd",
+                    "lat": "-118.378098"
+                }, {
+                    "city": "El Segundo",
+                    "code": "LAX",
+                    "lon": "33.916286",
+                    "zipcode": "90245\n",
+                    "gas_name": "Chevron",
+                    "address": "101 S Sepulveda Blvd",
+                    "lat": "-118.396110"
+                }
+            ],
+            "airport": "Los Angeles International",
+            "directions": "For offsite Enterprise rentals south of LAX",
+            "id": 7
+        }
+    ],
+    "Fort Lauderdale/Hollywood International": [{
+            "city": "Fort Lauderdale",
+            "code": "FLL",
+            "stations": [{
+                    "city": "Fort Lauderdale",
+                    "code": "FLL",
+                    "lon": "26.089901",
+                    "zipcode": "33315\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1500 Florida 84",
+                    "lat": "-80.161307"
+                }
+            ],
+            "airport": "Fort Lauderdale/Hollywood International",
+            "directions": "Driving Northbound on I-95 use: Mobil - 2109 Griffin Road",
+            "id": 31
+        }, {
+            "city": "Fort Lauderdale",
+            "code": "FLL",
+            "stations": [{
+                    "city": "Fort Lauderdale",
+                    "code": "FLL",
+                    "lon": "26.089901",
+                    "zipcode": "33315\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1500 Florida 84",
+                    "lat": "-80.161307"
+                }
+            ],
+            "airport": "Fort Lauderdale/Hollywood International",
+            "directions": "Driving Southbound on I-95 use: 7-11 - 1500 Florida 84",
+            "id": 32
+        }
+    ],
+    "Seattle-Tacoma International": [{
+            "city": "Seattle",
+            "code": "SEA",
+            "stations": [{
+                    "city": "SeaTac",
+                    "code": "SEA",
+                    "lon": "47.450311",
+                    "zipcode": "98188\n",
+                    "gas_name": "Circle K/Shell",
+                    "address": "17040 International Blvd",
+                    "lat": "-122.296036"
+                }, {
+                    "city": "Tukwila",
+                    "code": "SEA",
+                    "lon": "47.466497",
+                    "zipcode": "98188\n",
+                    "gas_name": "Arco AM/PM",
+                    "address": "15252 International Blvd",
+                    "lat": "-122.288329"
+                }
+            ],
+            "airport": "Seattle-Tacoma International",
+            "directions": "Rental car row just outside of airport.  Driving Northbound from the south use: Circle K/Shell - 17040 International Blvd",
+            "id": 23
+        }, {
+            "city": "Seattle",
+            "code": "SEA",
+            "stations": [{
+                    "city": "SeaTac",
+                    "code": "SEA",
+                    "lon": "47.450311",
+                    "zipcode": "98188\n",
+                    "gas_name": "Circle K/Shell",
+                    "address": "17040 International Blvd",
+                    "lat": "-122.296036"
+                }, {
+                    "city": "Tukwila",
+                    "code": "SEA",
+                    "lon": "47.466497",
+                    "zipcode": "98188\n",
+                    "gas_name": "Arco AM/PM",
+                    "address": "15252 International Blvd",
+                    "lat": "-122.288329"
+                }
+            ],
+            "airport": "Seattle-Tacoma International",
+            "directions": "Driving southbound from the north use: Arco AM/PM - 15252 Tukwila International Blvd.",
+            "id": 24
+        }
+    ],
+    "Lambert-St. Louis International": [{
+            "city": "St. Louis",
+            "code": "STL",
+            "stations": [{
+                    "city": " Bridgeton",
+                    "code": "STL",
+                    "lon": "38.741183",
+                    "zipcode": "63044\n",
+                    "gas_name": "QuickTrip",
+                    "address": "11444 St Charles Rock Rd",
+                    "lat": "-90.405934"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.737940",
+                    "zipcode": "63134\n",
+                    "gas_name": "BP",
+                    "address": "10500 Natural Bridge Rd",
+                    "lat": "-90.364659"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.729610",
+                    "zipcode": "63134\n",
+                    "gas_name": "Petromart",
+                    "address": "9790 Natural Bridge Rd",
+                    "lat": "-90.346546"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.718769",
+                    "zipcode": "63121\n",
+                    "gas_name": "Quicktrup",
+                    "address": "9099 Natural Bridge Rd",
+                    "lat": "-90.330633"
+                }
+            ],
+            "airport": "Lambert-St. Louis International",
+            "directions": "Thrifty and Dollar EB on I70 a car use: QuikTrip - 11444 Saint Charles Rock Road.  \n",
+            "id": 49
+        }, {
+            "city": "St. Louis",
+            "code": "STL",
+            "stations": [{
+                    "city": " Bridgeton",
+                    "code": "STL",
+                    "lon": "38.741183",
+                    "zipcode": "63044\n",
+                    "gas_name": "QuickTrip",
+                    "address": "11444 St Charles Rock Rd",
+                    "lat": "-90.405934"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.737940",
+                    "zipcode": "63134\n",
+                    "gas_name": "BP",
+                    "address": "10500 Natural Bridge Rd",
+                    "lat": "-90.364659"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.729610",
+                    "zipcode": "63134\n",
+                    "gas_name": "Petromart",
+                    "address": "9790 Natural Bridge Rd",
+                    "lat": "-90.346546"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.718769",
+                    "zipcode": "63121\n",
+                    "gas_name": "Quicktrup",
+                    "address": "9099 Natural Bridge Rd",
+                    "lat": "-90.330633"
+                }
+            ],
+            "airport": "Lambert-St. Louis International",
+            "directions": "Thrifty and Dollar WB on I70 use: BP - 10500 Natural Bridge Rd.\n",
+            "id": 50
+        }, {
+            "city": "St. Louis",
+            "code": "STL",
+            "stations": [{
+                    "city": " Bridgeton",
+                    "code": "STL",
+                    "lon": "38.741183",
+                    "zipcode": "63044\n",
+                    "gas_name": "QuickTrip",
+                    "address": "11444 St Charles Rock Rd",
+                    "lat": "-90.405934"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.737940",
+                    "zipcode": "63134\n",
+                    "gas_name": "BP",
+                    "address": "10500 Natural Bridge Rd",
+                    "lat": "-90.364659"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.729610",
+                    "zipcode": "63134\n",
+                    "gas_name": "Petromart",
+                    "address": "9790 Natural Bridge Rd",
+                    "lat": "-90.346546"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.718769",
+                    "zipcode": "63121\n",
+                    "gas_name": "Quicktrup",
+                    "address": "9099 Natural Bridge Rd",
+                    "lat": "-90.330633"
+                }
+            ],
+            "airport": "Lambert-St. Louis International",
+            "directions": "Avis/Budget use: BP - 10500 Natural Bridge Rd. \n",
+            "id": 51
+        }, {
+            "city": "St. Louis",
+            "code": "STL",
+            "stations": [{
+                    "city": " Bridgeton",
+                    "code": "STL",
+                    "lon": "38.741183",
+                    "zipcode": "63044\n",
+                    "gas_name": "QuickTrip",
+                    "address": "11444 St Charles Rock Rd",
+                    "lat": "-90.405934"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.737940",
+                    "zipcode": "63134\n",
+                    "gas_name": "BP",
+                    "address": "10500 Natural Bridge Rd",
+                    "lat": "-90.364659"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.729610",
+                    "zipcode": "63134\n",
+                    "gas_name": "Petromart",
+                    "address": "9790 Natural Bridge Rd",
+                    "lat": "-90.346546"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.718769",
+                    "zipcode": "63121\n",
+                    "gas_name": "Quicktrup",
+                    "address": "9099 Natural Bridge Rd",
+                    "lat": "-90.330633"
+                }
+            ],
+            "airport": "Lambert-St. Louis International",
+            "directions": "Hertz",
+            "id": 52
+        }, {
+            "city": "St. Louis",
+            "code": "STL",
+            "stations": [{
+                    "city": " Bridgeton",
+                    "code": "STL",
+                    "lon": "38.741183",
+                    "zipcode": "63044\n",
+                    "gas_name": "QuickTrip",
+                    "address": "11444 St Charles Rock Rd",
+                    "lat": "-90.405934"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.737940",
+                    "zipcode": "63134\n",
+                    "gas_name": "BP",
+                    "address": "10500 Natural Bridge Rd",
+                    "lat": "-90.364659"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.729610",
+                    "zipcode": "63134\n",
+                    "gas_name": "Petromart",
+                    "address": "9790 Natural Bridge Rd",
+                    "lat": "-90.346546"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.718769",
+                    "zipcode": "63121\n",
+                    "gas_name": "Quicktrup",
+                    "address": "9099 Natural Bridge Rd",
+                    "lat": "-90.330633"
+                }
+            ],
+            "airport": "Lambert-St. Louis International",
+            "directions": "Hertz and Alamo driving EB on I70 use: BP - 10500 Natural Bridge Rd.\n",
+            "id": 53
+        }, {
+            "city": "St. Louis",
+            "code": "STL",
+            "stations": [{
+                    "city": " Bridgeton",
+                    "code": "STL",
+                    "lon": "38.741183",
+                    "zipcode": "63044\n",
+                    "gas_name": "QuickTrip",
+                    "address": "11444 St Charles Rock Rd",
+                    "lat": "-90.405934"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.737940",
+                    "zipcode": "63134\n",
+                    "gas_name": "BP",
+                    "address": "10500 Natural Bridge Rd",
+                    "lat": "-90.364659"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.729610",
+                    "zipcode": "63134\n",
+                    "gas_name": "Petromart",
+                    "address": "9790 Natural Bridge Rd",
+                    "lat": "-90.346546"
+                }, {
+                    "city": "St Louis",
+                    "code": "STL",
+                    "lon": "38.718769",
+                    "zipcode": "63121\n",
+                    "gas_name": "Quicktrup",
+                    "address": "9099 Natural Bridge Rd",
+                    "lat": "-90.330633"
+                }
+            ],
+            "airport": "Lambert-St. Louis International",
+            "directions": "Enterprise driving on I70 or I170 from the East",
+            "id": 54
+        }
+    ],
+    "Newark Liberty International": [{
+            "city": "Newark",
+            "code": "EWR",
+            "stations": [{
+                    "city": "Newark",
+                    "code": "EWR",
+                    "lon": "40.434039",
+                    "zipcode": "07114\n",
+                    "gas_name": "Gulf (24h)",
+                    "address": "100 Lindbergh Rd",
+                    "lat": "-74.766836"
+                }
+            ],
+            "airport": "Newark Liberty International",
+            "directions": "Most rental car agencies at airport.  Advantage and Alamo right offsite but should use same.  Gas onsite use: Gulf (24h) - 100 Linbergh Rd.",
+            "id": 22
+        }
+    ],
+    "Kansas City International": [{
+            "city": "Kansas City",
+            "code": "KCI",
+            "stations": [{
+                    "city": "Kansas City",
+                    "code": "KCI",
+                    "lon": "39.301904",
+                    "zipcode": "64153\n",
+                    "gas_name": "KCI Car Care Center",
+                    "address": "426 Paris St",
+                    "lat": "-94.710818"
+                }
+            ],
+            "airport": "Kansas City International",
+            "directions": "All rentals at airport use onsite gas station: KCI Car Care Center 426 Paris Kansas City MO\n",
+            "id": 55
+        }
+    ],
+    "Honolulu International": [{
+            "city": "Honolulu",
+            "code": "HNL",
+            "stations": [{
+                    "city": "Honolulu",
+                    "code": "HNL",
+                    "lon": "21.332891",
+                    "zipcode": "96819\n",
+                    "gas_name": "Shell",
+                    "address": "2805 Ualena St",
+                    "lat": "-157.902115"
+                }
+            ],
+            "airport": "Honolulu International",
+            "directions": "All rentals should use this offsite gas station: Shell - 2805 Ualena Street",
+            "id": 41
+        }
+    ],
+    "Portland International": [{
+            "city": "Portland",
+            "code": "PDX",
+            "stations": [{
+                    "city": "Portland",
+                    "code": "PDX",
+                    "lon": "45.559330",
+                    "zipcode": "97220\n",
+                    "gas_name": "Shell",
+                    "address": "9920 NE Sandy Blvd",
+                    "lat": "-122.560404"
+                }, {
+                    "city": "Vancouver",
+                    "code": "PDX",
+                    "lon": "45.621436",
+                    "zipcode": "98664\n",
+                    "gas_name": "76 Station/Richy\u2019s Tire Factory",
+                    "address": "10512 SE Mill Plain Blvd",
+                    "lat": "-122.564664"
+                }
+            ],
+            "airport": "Portland International",
+            "directions": "All but Budget onsite and if coming from the South",
+            "id": 46
+        }, {
+            "city": "Portland",
+            "code": "PDX",
+            "stations": [{
+                    "city": "Portland",
+                    "code": "PDX",
+                    "lon": "45.559330",
+                    "zipcode": "97220\n",
+                    "gas_name": "Shell",
+                    "address": "9920 NE Sandy Blvd",
+                    "lat": "-122.560404"
+                }, {
+                    "city": "Vancouver",
+                    "code": "PDX",
+                    "lon": "45.621436",
+                    "zipcode": "98664\n",
+                    "gas_name": "76 Station/Richy\u2019s Tire Factory",
+                    "address": "10512 SE Mill Plain Blvd",
+                    "lat": "-122.564664"
+                }
+            ],
+            "airport": "Portland International",
+            "directions": "If coming Southbound on 205 from WA",
+            "id": 47
+        }, {
+            "city": "Portland",
+            "code": "PDX",
+            "stations": [{
+                    "city": "Portland",
+                    "code": "PDX",
+                    "lon": "45.559330",
+                    "zipcode": "97220\n",
+                    "gas_name": "Shell",
+                    "address": "9920 NE Sandy Blvd",
+                    "lat": "-122.560404"
+                }, {
+                    "city": "Vancouver",
+                    "code": "PDX",
+                    "lon": "45.621436",
+                    "zipcode": "98664\n",
+                    "gas_name": "76 Station/Richy\u2019s Tire Factory",
+                    "address": "10512 SE Mill Plain Blvd",
+                    "lat": "-122.564664"
+                }
+            ],
+            "airport": "Portland International",
+            "directions": "If renting from Budget offsite airport use: JL Mini Mart - 6021 Northeast Portland Highway",
+            "id": 48
+        }
+    ],
+    "Philadelphia International": [{
+            "city": "Philadelphia",
+            "code": "PHL",
+            "stations": [{
+                    "city": "Philadelphia",
+                    "code": "PHL",
+                    "lon": "39.894628",
+                    "zipcode": "19153\n",
+                    "gas_name": "Wawa",
+                    "address": "8220 W Bartram Ave",
+                    "lat": "75.236559"
+                }
+            ],
+            "airport": "Philadelphia International",
+            "directions": "Rental car row at airport.  Gas station offsite: Wawa - 8220 Bertram Avenue is closest and convenient.\n",
+            "id": 27
+        }
+    ],
+    "Washington Dulles International": [{
+            "city": "Washington DC",
+            "code": "IAD",
+            "stations": [{
+                    "city": "Dulles",
+                    "code": "IAD",
+                    "lon": "-77.44777",
+                    "zipcode": "20166\n",
+                    "gas_name": "Exxon/Circle K",
+                    "address": "44910 Rudder Rd",
+                    "lat": "38.96390"
+                }
+            ],
+            "airport": "Washington Dulles International",
+            "directions": "Rental car row at airport.  Gas station onsite: Exxon/Circle K - 44910 Rudder Rd.\n",
+            "id": 34
+        }
+    ],
+    "John F. Kennedy International": [{
+            "city": "New York",
+            "code": "JFK",
+            "stations": [{
+                    "city": "Jamaica",
+                    "code": "JFK",
+                    "lon": "40.658233",
+                    "zipcode": "11430\n",
+                    "gas_name": "BP",
+                    "address": "138 Federal Circle",
+                    "lat": "-73.805825"
+                }
+            ],
+            "airport": "John F. Kennedy International",
+            "directions": "Rental car row at airport.  Gas station near onsite: BP - 138 Federal Circle",
+            "id": 10
+        }
+    ],
+    "Orlando International": [{
+            "city": "Orlando",
+            "code": "MCO",
+            "stations": [{
+                    "city": "Tampa",
+                    "code": "MCO",
+                    "lon": "28.081888",
+                    "zipcode": "33625\n",
+                    "gas_name": "7-Eleven",
+                    "address": "3911 McCoy Rd",
+                    "lat": "-82.564799"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.465628",
+                    "zipcode": "32822\n",
+                    "gas_name": "7-Eleven",
+                    "address": "7018 Narcoossee Rd",
+                    "lat": "-81.276087"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.414216",
+                    "zipcode": "32832\n",
+                    "gas_name": "7-Eleven",
+                    "address": "10601 Narcoossee Rd",
+                    "lat": "-81.242761"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "-81.36656",
+                    "zipcode": "32824\n",
+                    "gas_name": "Mobil",
+                    "address": "13451 Landstar Blvd",
+                    "lat": "28.37107"
+                }
+            ],
+            "airport": "Orlando International",
+            "directions": "Driving Eastbound on SR528 use: 7-Eleven - 3911 McCoy Rd",
+            "id": 18
+        }, {
+            "city": "Orlando",
+            "code": "MCO",
+            "stations": [{
+                    "city": "Tampa",
+                    "code": "MCO",
+                    "lon": "28.081888",
+                    "zipcode": "33625\n",
+                    "gas_name": "7-Eleven",
+                    "address": "3911 McCoy Rd",
+                    "lat": "-82.564799"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.465628",
+                    "zipcode": "32822\n",
+                    "gas_name": "7-Eleven",
+                    "address": "7018 Narcoossee Rd",
+                    "lat": "-81.276087"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.414216",
+                    "zipcode": "32832\n",
+                    "gas_name": "7-Eleven",
+                    "address": "10601 Narcoossee Rd",
+                    "lat": "-81.242761"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "-81.36656",
+                    "zipcode": "32824\n",
+                    "gas_name": "Mobil",
+                    "address": "13451 Landstar Blvd",
+                    "lat": "28.37107"
+                }
+            ],
+            "airport": "Orlando International",
+            "directions": "Driving Westbound on SR528 use: 7-11 - 7018 Narcoossee Rd.",
+            "id": 19
+        }, {
+            "city": "Orlando",
+            "code": "MCO",
+            "stations": [{
+                    "city": "Tampa",
+                    "code": "MCO",
+                    "lon": "28.081888",
+                    "zipcode": "33625\n",
+                    "gas_name": "7-Eleven",
+                    "address": "3911 McCoy Rd",
+                    "lat": "-82.564799"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.465628",
+                    "zipcode": "32822\n",
+                    "gas_name": "7-Eleven",
+                    "address": "7018 Narcoossee Rd",
+                    "lat": "-81.276087"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.414216",
+                    "zipcode": "32832\n",
+                    "gas_name": "7-Eleven",
+                    "address": "10601 Narcoossee Rd",
+                    "lat": "-81.242761"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "-81.36656",
+                    "zipcode": "32824\n",
+                    "gas_name": "Mobil",
+                    "address": "13451 Landstar Blvd",
+                    "lat": "28.37107"
+                }
+            ],
+            "airport": "Orlando International",
+            "directions": "Driving Eastbound on SR417 use: Mobil 7-11 - 13451 Landstar Blvd.",
+            "id": 20
+        }, {
+            "city": "Orlando",
+            "code": "MCO",
+            "stations": [{
+                    "city": "Tampa",
+                    "code": "MCO",
+                    "lon": "28.081888",
+                    "zipcode": "33625\n",
+                    "gas_name": "7-Eleven",
+                    "address": "3911 McCoy Rd",
+                    "lat": "-82.564799"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.465628",
+                    "zipcode": "32822\n",
+                    "gas_name": "7-Eleven",
+                    "address": "7018 Narcoossee Rd",
+                    "lat": "-81.276087"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "28.414216",
+                    "zipcode": "32832\n",
+                    "gas_name": "7-Eleven",
+                    "address": "10601 Narcoossee Rd",
+                    "lat": "-81.242761"
+                }, {
+                    "city": "Orlando",
+                    "code": "MCO",
+                    "lon": "-81.36656",
+                    "zipcode": "32824\n",
+                    "gas_name": "Mobil",
+                    "address": "13451 Landstar Blvd",
+                    "lat": "28.37107"
+                }
+            ],
+            "airport": "Orlando International",
+            "directions": "Driving Westbound on SR417 use: 7-11 - 10601 Narcoossee Rd.",
+            "id": 21
+        }
+    ],
+    "Detroit Metropolitan Wayne County ": [{
+            "city": "Detroit",
+            "code": "DTW",
+            "stations": [{
+                    "city": "Romulus",
+                    "code": "DTW",
+                    "lon": "42.238648",
+                    "zipcode": "48174\n",
+                    "gas_name": "BP",
+                    "address": "9201 Middlebelt Rd",
+                    "lat": "-83.327698"
+                }
+            ],
+            "airport": "Detroit Metropolitan Wayne County ",
+            "directions": "Rental car row at airport.  All should use: BP - 9201 Middlebelt Road",
+            "id": 26
+        }
+    ],
+    "Charlotte/Douglas International": [{
+            "city": "Charlotte",
+            "code": "CLT",
+            "stations": [{
+                    "city": "Charlotte",
+                    "code": "CLT",
+                    "lon": "35.235559",
+                    "zipcode": "28208\n",
+                    "gas_name": "Airport Express Wilkinson Blvd",
+                    "address": "6020 Wilkinson Blvd",
+                    "lat": "-80.942464"
+                }
+            ],
+            "airport": "Charlotte/Douglas International",
+            "directions": "Rental car row at airport.  One offsite close: Airport Express - 6020 Wilkinson Blvd.",
+            "id": 16
+        }
+    ],
+    "Phoenix Sky Harbor International": [{
+            "city": "Phoenix",
+            "code": "PHX",
+            "stations": [{
+                    "city": "Phoenix",
+                    "code": "PHX",
+                    "lon": "33.436824",
+                    "zipcode": "85004\n",
+                    "gas_name": "Circle K",
+                    "address": "699 E Buckeye Rd",
+                    "lat": "-112.065477"
+                }
+            ],
+            "airport": "Phoenix Sky Harbor International",
+            "directions": "Rental car row at airport.  Gas station offsite: Circle K - 699 E. Buckeye Rd",
+            "id": 14
+        }
+    ],
+    "Pittsburgh International": [{
+            "city": "Pittsburgh",
+            "code": "PIT",
+            "stations": [{
+                    "city": "Pittsburgh",
+                    "code": "PIT",
+                    "lon": "40.633714",
+                    "zipcode": "15231\n",
+                    "gas_name": "Sunoco",
+                    "address": "1201 Airport Blvd",
+                    "lat": "-79.545914"
+                }
+            ],
+            "airport": "Pittsburgh International",
+            "directions": "All rental cars onsite at airport.  Use Sunoco on the property - 1201 Airport Blvd.",
+            "id": 58
+        }
+    ],
+    "San Francisco International": [{
+            "city": "San Francisco",
+            "code": "SFO",
+            "stations": [{
+                    "city": "San Bruno",
+                    "code": "SFO",
+                    "lon": "37.630630",
+                    "zipcode": "94066\n",
+                    "gas_name": "Valero",
+                    "address": "310 San Bruno Ave E",
+                    "lat": "-122.410072"
+                }
+            ],
+            "airport": "San Francisco International",
+            "directions": "Rental car center at airport use: Valero - 310 San bruno Avenue East",
+            "id": 11
+        }
+    ],
+    "LaGuardia Airport": [{
+            "city": "New York",
+            "code": "LGA",
+            "stations": [{
+                    "city": "East Elmhurst",
+                    "code": "LGA",
+                    "lon": "40.767915",
+                    "zipcode": "11369\n",
+                    "gas_name": "Mobil",
+                    "address": " 10801 Grand Central Parkway",
+                    "lat": "-73.865137"
+                }, {
+                    "city": "East Elmhurst",
+                    "code": "LGA",
+                    "lon": "40.764870",
+                    "zipcode": "11370\n",
+                    "gas_name": "Citgo",
+                    "address": "8505 Astoria Blvd",
+                    "lat": "73.883909"
+                }
+            ],
+            "airport": "LaGuardia Airport",
+            "directions": "Driving Westbound use: Mobil - 10801 Grand Central Parkway.  \n",
+            "id": 29
+        }, {
+            "city": "New York",
+            "code": "LGA",
+            "stations": [{
+                    "city": "East Elmhurst",
+                    "code": "LGA",
+                    "lon": "40.767915",
+                    "zipcode": "11369\n",
+                    "gas_name": "Mobil",
+                    "address": " 10801 Grand Central Parkway",
+                    "lat": "-73.865137"
+                }, {
+                    "city": "East Elmhurst",
+                    "code": "LGA",
+                    "lon": "40.764870",
+                    "zipcode": "11370\n",
+                    "gas_name": "Citgo",
+                    "address": "8505 Astoria Blvd",
+                    "lat": "73.883909"
+                }
+            ],
+            "airport": "LaGuardia Airport",
+            "directions": "From Manhattan and New Jersey driving Eastbound use: Citgo - 8505 Astoria Blvd.",
+            "id": 30
+        }
+    ],
+    "Midway International": [{
+            "city": "Chicago",
+            "code": "MDW",
+            "stations": [{
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.778476",
+                    "zipcode": "g36",
+                    "gas_name": "Midway Gas Mart",
+                    "address": "4710 W 63rd St",
+                    "lat": "-87.740338"
+                }, {
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.792983",
+                    "zipcode": "60632\n",
+                    "gas_name": "7-Eleven",
+                    "address": "4353 W 55th St",
+                    "lat": "-87.732838"
+                }, {
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.792983",
+                    "zipcode": "60632\n",
+                    "gas_name": "Mobil",
+                    "address": "4353 W 55th St",
+                    "lat": "-87.732838"
+                }
+            ],
+            "airport": "Midway International",
+            "directions": "From the South on Rt. 50 use: Midway Gas Mart - 4710 West 63rd St.",
+            "id": 37
+        }, {
+            "city": "Chicago",
+            "code": "MDW",
+            "stations": [{
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.778476",
+                    "zipcode": "g36",
+                    "gas_name": "Midway Gas Mart",
+                    "address": "4710 W 63rd St",
+                    "lat": "-87.740338"
+                }, {
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.792983",
+                    "zipcode": "60632\n",
+                    "gas_name": "7-Eleven",
+                    "address": "4353 W 55th St",
+                    "lat": "-87.732838"
+                }, {
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.792983",
+                    "zipcode": "60632\n",
+                    "gas_name": "Mobil",
+                    "address": "4353 W 55th St",
+                    "lat": "-87.732838"
+                }
+            ],
+            "airport": "Midway International",
+            "directions": "From the North and East (near DT Chicago) use: 7-11 - 4353 West 55th St.",
+            "id": 38
+        }, {
+            "city": "Chicago",
+            "code": "MDW",
+            "stations": [{
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.778476",
+                    "zipcode": "g36",
+                    "gas_name": "Midway Gas Mart",
+                    "address": "4710 W 63rd St",
+                    "lat": "-87.740338"
+                }, {
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.792983",
+                    "zipcode": "60632\n",
+                    "gas_name": "7-Eleven",
+                    "address": "4353 W 55th St",
+                    "lat": "-87.732838"
+                }, {
+                    "city": "Chicago",
+                    "code": "MDW",
+                    "lon": "41.792983",
+                    "zipcode": "60632\n",
+                    "gas_name": "Mobil",
+                    "address": "4353 W 55th St",
+                    "lat": "-87.732838"
+                }
+            ],
+            "airport": "Midway International",
+            "directions": "From the West and I-55 use: Mobil - 5448 West 55th St. Chicago.\n",
+            "id": 39
+        }
+    ],
+    "Denver International": [{
+            "city": "Denver",
+            "code": "DEN",
+            "stations": [{
+                    "city": "CO",
+                    "code": "DEN",
+                    "lon": "39.836021",
+                    "zipcode": "g8",
+                    "gas_name": "Conoco/Circle",
+                    "address": "7680 Pe\u00f1a Blvd Denver",
+                    "lat": "104.720146"
+                }
+            ],
+            "airport": "Denver International",
+            "directions": "Rental car row at airport.  Gas station onsite: Conoco/Circle K - 7680 Pena Blvd.",
+            "id": 9
+        }
+    ],
+    "Baltimore-Washington International Thurgood": [{
+            "city": "Baltimore",
+            "code": "BWI",
+            "stations": [{
+                    "city": "Hanover",
+                    "code": "BWI",
+                    "lon": "39.158466",
+                    "zipcode": "21076\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1401 Dorsey Rd",
+                    "lat": "-76.704716"
+                }
+            ],
+            "airport": "Baltimore-Washington International Thurgood",
+            "directions": "Rental car row offsite use: 7-11 - 1401 Dorsey Road",
+            "id": 33
+        }
+    ],
+    "Hartsfield Jackson Atlanta International": [{
+            "city": "Atlanta",
+            "code": "ATL",
+            "stations": [{
+                    "city": "Atlanta",
+                    "code": "ATL",
+                    "lon": "33.635040",
+                    "zipcode": "30337\n",
+                    "gas_name": "Chevron",
+                    "address": "2407 Riverdale Road",
+                    "lat": " -84.468228"
+                }
+            ],
+            "airport": "Hartsfield Jackson Atlanta International",
+            "directions": "All rental cars are offsite.  Use: Chevron - 2407 Riverdale Road",
+            "id": 1
+        }
+    ],
+    "Ronald Reagan Washington National": [{
+            "city": "Washington DC",
+            "code": "DCA",
+            "stations": [{
+                    "city": "Arlington",
+                    "code": "DCA",
+                    "lon": "38.853181",
+                    "zipcode": "22202\n",
+                    "gas_name": "Exxon",
+                    "address": "2300 Jefferson Davis Hwy",
+                    "lat": "-77.052808"
+                }
+            ],
+            "airport": "Ronald Reagan Washington National",
+            "directions": "For all rentals off site and on site around airport use: Exxon - 2300 Jefferson Davis Highway",
+            "id": 40
+        }
+    ],
+    "Miami International": [{
+            "city": "Miami",
+            "code": "MIA",
+            "stations": [{
+                    "city": "Miami",
+                    "code": "MIA",
+                    "lon": "25.798494",
+                    "zipcode": "33142\n",
+                    "gas_name": "Shell",
+                    "address": "2501 NW 42nd Ave",
+                    "lat": "-80.264046"
+                }
+            ],
+            "airport": "Miami International",
+            "directions": "All rental cars directly offsite can use: Shell Station - 2501 NW 42nd Ave. Miami",
+            "id": 17
+        }
+    ],
+    "Dallas/Fort Worth International": [{
+            "city": "Dallas/Fort Worth",
+            "code": "DFW",
+            "stations": [{
+                    "city": "Irving",
+                    "code": "DFW",
+                    "lon": "32.856630",
+                    "zipcode": "75062\n",
+                    "gas_name": "Valero/Stop&Go",
+                    "address": "3950 Valley View Ln",
+                    "lat": "-97.020689"
+                }
+            ],
+            "airport": "Dallas/Fort Worth International",
+            "directions": "All rentals use an offsite rental car facility.  Use the station which is right near the entrance to the rental car facility on Rental Car Road. Valero/Stop & Go - 3950 Valley View Ln",
+            "id": 8
+        }
+    ],
+    "Minneapolis-St. Paul International": [{
+            "city": "Minneapolis/St. Paul",
+            "code": "MSP",
+            "stations": [{
+                    "city": "Minneapolis",
+                    "code": "MSP",
+                    "lon": "44.870302",
+                    "zipcode": "55450\n",
+                    "gas_name": "SuperAmerica",
+                    "address": "5201 Post Rd",
+                    "lat": "-93.200133"
+                }
+            ],
+            "airport": "Minneapolis-St. Paul International",
+            "directions": "Rental car row at airport.  All should use: SuperAmerica - 5201 Post Road",
+            "id": 25
+        }
+    ],
+    "Tampa International": [{
+            "city": "Tampa",
+            "code": "TPA",
+            "stations": [{
+                    "city": "Tampa",
+                    "code": "TPA",
+                    "lon": "27.952478",
+                    "zipcode": "g43",
+                    "gas_name": "7-Eleven",
+                    "address": "5125 W Cypress St",
+                    "lat": "-82.531262"
+                }, {
+                    "city": "Town 'n' Country",
+                    "code": "TPA",
+                    "lon": "27.996734",
+                    "zipcode": "g44",
+                    "gas_name": "Racetrac",
+                    "address": "6507 W Hillsborough Ave",
+                    "lat": "82.552504"
+                }
+            ],
+            "airport": "Tampa International",
+            "directions": "From St. Petersburg",
+            "id": 44
+        }, {
+            "city": "Tampa",
+            "code": "TPA",
+            "stations": [{
+                    "city": "Tampa",
+                    "code": "TPA",
+                    "lon": "27.952478",
+                    "zipcode": "g43",
+                    "gas_name": "7-Eleven",
+                    "address": "5125 W Cypress St",
+                    "lat": "-82.531262"
+                }, {
+                    "city": "Town 'n' Country",
+                    "code": "TPA",
+                    "lon": "27.996734",
+                    "zipcode": "g44",
+                    "gas_name": "Racetrac",
+                    "address": "6507 W Hillsborough Ave",
+                    "lat": "82.552504"
+                }
+            ],
+            "airport": "Tampa International",
+            "directions": "From North of Tampa and Pasco County on Veteran's Expressway use: Racetrac - 6507 West Hillsborough Ave.\n",
+            "id": 45
+        }
+    ],
+    "O'Hare International": [{
+            "city": "Chicago",
+            "code": "ORD",
+            "stations": [{
+                    "city": "S River Rd Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.010180",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "2380",
+                    "lat": "-87.869271"
+                }, {
+                    "city": "Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.015804",
+                    "zipcode": "60018\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1960 S Mount Prospect Rd",
+                    "lat": "-87.921056"
+                }, {
+                    "city": "Rosemont",
+                    "code": "ORD",
+                    "lon": "41.990835",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "9401 W Higgins Rd",
+                    "lat": "-87.860255"
+                }, {
+                    "city": "IL",
+                    "code": "ORD",
+                    "lon": "41.952877",
+                    "zipcode": "g4",
+                    "gas_name": "7-Eleven",
+                    "address": "4101 George Pl Schiller Park",
+                    "lat": "-87.883162"
+                }
+            ],
+            "airport": "O'Hare International",
+            "directions": "Driving Southbound towards ORD on I-294 use: Mobil Station - 2380 South River Road",
+            "id": 2
+        }, {
+            "city": "Chicago",
+            "code": "ORD",
+            "stations": [{
+                    "city": "S River Rd Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.010180",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "2380",
+                    "lat": "-87.869271"
+                }, {
+                    "city": "Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.015804",
+                    "zipcode": "60018\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1960 S Mount Prospect Rd",
+                    "lat": "-87.921056"
+                }, {
+                    "city": "Rosemont",
+                    "code": "ORD",
+                    "lon": "41.990835",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "9401 W Higgins Rd",
+                    "lat": "-87.860255"
+                }, {
+                    "city": "IL",
+                    "code": "ORD",
+                    "lon": "41.952877",
+                    "zipcode": "g4",
+                    "gas_name": "7-Eleven",
+                    "address": "4101 George Pl Schiller Park",
+                    "lat": "-87.883162"
+                }
+            ],
+            "airport": "O'Hare International",
+            "directions": "Driving Eastbound towards ORD on I-90 use either: 7-Eleven or Mobil on Toll Rest Stop - 1960 S. Mt. Prospect Rd",
+            "id": 3
+        }, {
+            "city": "Chicago",
+            "code": "ORD",
+            "stations": [{
+                    "city": "S River Rd Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.010180",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "2380",
+                    "lat": "-87.869271"
+                }, {
+                    "city": "Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.015804",
+                    "zipcode": "60018\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1960 S Mount Prospect Rd",
+                    "lat": "-87.921056"
+                }, {
+                    "city": "Rosemont",
+                    "code": "ORD",
+                    "lon": "41.990835",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "9401 W Higgins Rd",
+                    "lat": "-87.860255"
+                }, {
+                    "city": "IL",
+                    "code": "ORD",
+                    "lon": "41.952877",
+                    "zipcode": "g4",
+                    "gas_name": "7-Eleven",
+                    "address": "4101 George Pl Schiller Park",
+                    "lat": "-87.883162"
+                }
+            ],
+            "airport": "O'Hare International",
+            "directions": "Driving Westbound towards ORD on I-90 use Mobil Station - 9401 West Higgins Road",
+            "id": 4
+        }, {
+            "city": "Chicago",
+            "code": "ORD",
+            "stations": [{
+                    "city": "S River Rd Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.010180",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "2380",
+                    "lat": "-87.869271"
+                }, {
+                    "city": "Des Plaines",
+                    "code": "ORD",
+                    "lon": "42.015804",
+                    "zipcode": "60018\n",
+                    "gas_name": "7-Eleven",
+                    "address": "1960 S Mount Prospect Rd",
+                    "lat": "-87.921056"
+                }, {
+                    "city": "Rosemont",
+                    "code": "ORD",
+                    "lon": "41.990835",
+                    "zipcode": "60018\n",
+                    "gas_name": "Mobil",
+                    "address": "9401 W Higgins Rd",
+                    "lat": "-87.860255"
+                }, {
+                    "city": "IL",
+                    "code": "ORD",
+                    "lon": "41.952877",
+                    "zipcode": "g4",
+                    "gas_name": "7-Eleven",
+                    "address": "4101 George Pl Schiller Park",
+                    "lat": "-87.883162"
+                }
+            ],
+            "airport": "O'Hare International",
+            "directions": "Driving Northbound towards ORD on I-294 use: 7-Eleven - 4101 George PL",
+            "id": 5
+        }
+    ],
+    "Salt Lake City International": [{
+            "city": "Salt Lake City",
+            "code": "SLC",
+            "stations": [{
+                    "city": "Salt Lake City",
+                    "code": "SLC",
+                    "lon": "40.771720",
+                    "zipcode": "84116\n",
+                    "gas_name": "Chevron",
+                    "address": "1704 W North Temple",
+                    "lat": "-111.940002"
+                }, {
+                    "city": "Salt Lake City",
+                    "code": "SLC",
+                    "lon": "40.776209",
+                    "zipcode": "84116\n",
+                    "gas_name": "Roy\u2019s Phillips 66",
+                    "address": "5505 Amelia Earhart Drive",
+                    "lat": "-112.022508"
+                }
+            ],
+            "airport": "Salt Lake City International",
+            "directions": "From the North",
+            "id": 35
+        }, {
+            "city": "Salt Lake City",
+            "code": "SLC",
+            "stations": [{
+                    "city": "Salt Lake City",
+                    "code": "SLC",
+                    "lon": "40.771720",
+                    "zipcode": "84116\n",
+                    "gas_name": "Chevron",
+                    "address": "1704 W North Temple",
+                    "lat": "-111.940002"
+                }, {
+                    "city": "Salt Lake City",
+                    "code": "SLC",
+                    "lon": "40.776209",
+                    "zipcode": "84116\n",
+                    "gas_name": "Roy\u2019s Phillips 66",
+                    "address": "5505 Amelia Earhart Drive",
+                    "lat": "-112.022508"
+                }
+            ],
+            "airport": "Salt Lake City International",
+            "directions": "From the West on I-80  use: Roy's Phillips 66 - 5505 Amelia Earhart Drive",
+            "id": 36
+        }
+    ]
+}

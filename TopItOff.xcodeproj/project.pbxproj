@@ -23,6 +23,8 @@
 		C1C7494C176423D2009135A5 /* TOAirportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C7494B176423D2009135A5 /* TOAirportsViewController.m */; };
 		C1C7494E176425C6009135A5 /* gas_json.json in Resources */ = {isa = PBXBuildFile; fileRef = C1C7494D176425C6009135A5 /* gas_json.json */; };
 		C1C7495117643746009135A5 /* TOStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C7495017643745009135A5 /* TOStationsViewController.m */; };
+		C1C749531764DCBA009135A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C749521764DCBA009135A5 /* MapKit.framework */; };
+		C1C749551764DD91009135A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C749541764DD91009135A5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		C1C7494D176425C6009135A5 /* gas_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gas_json.json; sourceTree = "<group>"; };
 		C1C7494F17643745009135A5 /* TOStationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOStationsViewController.h; sourceTree = "<group>"; };
 		C1C7495017643745009135A5 /* TOStationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOStationsViewController.m; sourceTree = "<group>"; };
+		C1C749521764DCBA009135A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C1C749541764DD91009135A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C749551764DD91009135A5 /* CoreLocation.framework in Frameworks */,
+				C1C749531764DCBA009135A5 /* MapKit.framework in Frameworks */,
 				C19BB9E51763CF67005C509E /* UIKit.framework in Frameworks */,
 				C19BB9E71763CF67005C509E /* Foundation.framework in Frameworks */,
 				C19BB9E91763CF67005C509E /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +76,8 @@
 		C19BB9D81763CF67005C509E = {
 			isa = PBXGroup;
 			children = (
+				C1C749541764DD91009135A5 /* CoreLocation.framework */,
+				C1C749521764DCBA009135A5 /* MapKit.framework */,
 				C1C749461763D334009135A5 /* Assets */,
 				C19BB9EA1763CF67005C509E /* TopItOff */,
 				C19BB9E31763CF67005C509E /* Frameworks */,

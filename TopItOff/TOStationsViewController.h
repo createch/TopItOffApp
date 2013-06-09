@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface TOStationsViewController : UITableViewController
 
-@property NSMutableDictionary *stations;
+@property NSMutableArray *stations;
+- (IBAction)showMap:(id)sender;
 
 @end

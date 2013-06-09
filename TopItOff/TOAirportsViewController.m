@@ -91,10 +91,10 @@
     static NSString *CellIdentifier = @"airportCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    UILabel *label = (UILabel *)[cell viewWithTag:0];
+//    UILabel *label = (UILabel *)[cell viewWithTag:0];
 //    NSLog(@"indexPath: %d", indexPath.row);
 //    NSLog(@"%@", );
-    label.text = [[airportsData allKeys] objectAtIndex:indexPath.row];
+    cell.textLabel.text = [[airportsData allKeys] objectAtIndex:indexPath.row];
     
     return cell;
 }
