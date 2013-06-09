@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <JSONKit/JSONKit.h>
+#import "TOStationsViewController.h"
 
-@interface TOAirportsViewController : UITableViewController {
-    NSMutableArray *stationsData;
-}
+@interface TOAirportsViewController : UITableViewController <UITableViewDataSource> {
+    NSMutableDictionary *airportsData;
+} 
 
 @end

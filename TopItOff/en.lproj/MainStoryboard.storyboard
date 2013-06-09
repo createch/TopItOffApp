@@ -63,87 +63,80 @@
             </objects>
             <point key="canvasLocation" x="224" y="-499"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="6io-9Z-bGq">
+        <!--Stations View Controller-->
+        <scene sceneID="rnO-fA-wbp">
             <objects>
-                <viewController id="GZM-Sg-SrX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gmJ-vi-jci">
+                <tableViewController id="ewS-tM-2N4" customClass="TOStationsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="121" sectionHeaderHeight="22" sectionFooterHeight="22" id="oHy-Vc-N9Q">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="IEE-ET-oZY">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="141" id="6c5-5F-fvK">
-                                        <rect key="frame" x="0.0" y="22" width="320" height="141"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exxon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHA-z1-StX">
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="208" id="ZAF-5X-G2D"/>
-                                                        <constraint firstAttribute="height" constant="31" id="hbb-XI-7ds"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="21"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="577" horizontalCompressionResistancePriority="769" verticalCompressionResistancePriority="798" text="Driving Southbound towards ORD on I-294 use: Mobil Station - 2380 South River Road, Des Plaines, IL." lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="218" translatesAutoresizingMaskIntoConstraints="NO" id="4Za-tg-vLX">
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="101" id="Xf3-ak-huo"/>
-                                                        <constraint firstAttribute="width" constant="218" id="YZp-T1-7SZ"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2f-Sk-jwJ">
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <state key="normal" title="Map">
-                                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <state key="highlighted">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                </button>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3.11 mi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pX-uL-nTe">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstItem="1pX-uL-nTe" firstAttribute="centerY" secondItem="VHA-z1-StX" secondAttribute="centerY" type="default" id="0fA-KJ-PkC"/>
-                                            <constraint firstAttribute="bottom" secondItem="H2f-Sk-jwJ" secondAttribute="bottom" constant="21" id="Cnk-Y7-jEm"/>
-                                            <constraint firstItem="H2f-Sk-jwJ" firstAttribute="trailing" secondItem="1pX-uL-nTe" secondAttribute="trailing" type="default" id="Fx4-1x-SfY"/>
-                                            <constraint firstItem="1pX-uL-nTe" firstAttribute="leading" secondItem="4Za-tg-vLX" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ZUS-01-IDw"/>
-                                            <constraint firstItem="4Za-tg-vLX" firstAttribute="top" secondItem="6c5-5F-fvK" secondAttribute="top" constant="32" id="i9a-4Z-wkN"/>
-                                            <constraint firstItem="VHA-z1-StX" firstAttribute="leading" secondItem="6c5-5F-fvK" secondAttribute="leading" constant="20" type="default" id="mtu-mb-cDn"/>
-                                            <constraint firstItem="VHA-z1-StX" firstAttribute="top" secondItem="6c5-5F-fvK" secondAttribute="top" constant="11" id="phm-Gg-73Q"/>
-                                            <constraint firstItem="4Za-tg-vLX" firstAttribute="leading" secondItem="6c5-5F-fvK" secondAttribute="leading" constant="20" type="default" id="rpe-0L-s6l"/>
-                                        </constraints>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="IEE-ET-oZY" firstAttribute="leading" secondItem="gmJ-vi-jci" secondAttribute="leading" type="default" id="Kgk-06-lVo"/>
-                            <constraint firstItem="IEE-ET-oZY" firstAttribute="bottom" secondItem="gmJ-vi-jci" secondAttribute="bottom" type="default" id="TA6-Uy-8JL"/>
-                            <constraint firstItem="IEE-ET-oZY" firstAttribute="top" secondItem="gmJ-vi-jci" secondAttribute="top" type="default" id="VNM-Nx-KVq"/>
-                            <constraint firstItem="IEE-ET-oZY" firstAttribute="trailing" secondItem="gmJ-vi-jci" secondAttribute="trailing" type="default" id="kht-47-12c"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="GJx-Hl-f4f"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sd1-xP-oiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="stationCell" rowHeight="121" id="XdD-eY-Ldd">
+                                <rect key="frame" x="0.0" y="22" width="320" height="121"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="577" horizontalCompressionResistancePriority="769" verticalCompressionResistancePriority="798" text="Driving Southbound towards ORD on I-294 use: Mobil Station - 2380 South River Road, Des Plaines, IL." lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="218" translatesAutoresizingMaskIntoConstraints="NO" id="4Za-tg-vLX">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="218" id="YZp-T1-7SZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Exxon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHA-z1-StX">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="208" id="ZAF-5X-G2D"/>
+                                                <constraint firstAttribute="height" constant="31" id="hbb-XI-7ds"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="21"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2f-Sk-jwJ">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <state key="normal" title="Map">
+                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3.11 mi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pX-uL-nTe">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="H2f-Sk-jwJ" secondAttribute="bottom" constant="15" id="1cT-r1-CRl"/>
+                                    <constraint firstItem="4Za-tg-vLX" firstAttribute="bottom" secondItem="XdD-eY-Ldd" secondAttribute="bottom" type="default" id="32a-0J-gbM"/>
+                                    <constraint firstItem="4Za-tg-vLX" firstAttribute="top" secondItem="XdD-eY-Ldd" secondAttribute="top" constant="20" type="default" id="For-an-MGH"/>
+                                    <constraint firstItem="VHA-z1-StX" firstAttribute="leading" secondItem="XdD-eY-Ldd" secondAttribute="leading" constant="13" id="Ong-SA-Ktp"/>
+                                    <constraint firstItem="VHA-z1-StX" firstAttribute="top" secondItem="XdD-eY-Ldd" secondAttribute="top" constant="3" id="Rhc-ma-EeY"/>
+                                    <constraint firstItem="VHA-z1-StX" firstAttribute="leading" secondItem="4Za-tg-vLX" secondAttribute="leading" type="default" id="VbO-nu-8pD"/>
+                                    <constraint firstAttribute="trailing" secondItem="1pX-uL-nTe" secondAttribute="trailing" constant="11" id="cl2-Vw-nch"/>
+                                    <constraint firstItem="1pX-uL-nTe" firstAttribute="trailing" secondItem="H2f-Sk-jwJ" secondAttribute="trailing" type="default" id="shp-Lr-bq1"/>
+                                    <constraint firstItem="1pX-uL-nTe" firstAttribute="baseline" secondItem="VHA-z1-StX" secondAttribute="baseline" type="default" id="tQ4-bF-MpR"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ewS-tM-2N4" id="Eud-ON-kfK"/>
+                            <outlet property="delegate" destination="ewS-tM-2N4" id="jzw-59-xIj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="r8g-BB-sW2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cyo-cv-oma" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="-511"/>
+            <point key="canvasLocation" x="1119" y="-492"/>
         </scene>
         <!--Airports View Controller - Root View Controller-->
         <scene sceneID="CBr-tS-cEr">
@@ -154,11 +147,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="airportCell" id="QVm-S1-z9D">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="airportCell" id="QVm-S1-z9D">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Airport Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNA-Eb-iQE">
@@ -178,14 +171,25 @@
                                     <constraint firstItem="PNA-Eb-iQE" firstAttribute="top" secondItem="QVm-S1-z9D" secondAttribute="top" constant="11" id="qxs-Tl-CSv"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="GZM-Sg-SrX" kind="push" id="gAK-Bd-acV"/>
+                                    <segue destination="ewS-tM-2N4" kind="push" id="gpS-TA-YUn"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Sxx-TC-hlN"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="GQh-61-keB" id="dXH-vB-Fgw"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2e4-KO-ZD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="GQh-61-keB">
+                    <connections>
+                        <outlet property="delegate" destination="5sV-8T-j91" id="Z7I-Kw-PLc"/>
+                        <outlet property="searchContentsController" destination="5sV-8T-j91" id="uvB-Zm-hk4"/>
+                        <outlet property="searchResultsDataSource" destination="5sV-8T-j91" id="Hxp-rM-eJ1"/>
+                        <outlet property="searchResultsDelegate" destination="5sV-8T-j91" id="6dx-xG-O2I"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="711" y="-492"/>
         </scene>
@@ -205,20 +209,6 @@
             <point key="canvasLocation" x="-272" y="-480"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="TOAirportsViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TOAirportsViewController.h"/>
-        </class>
-        <class className="TOViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TOViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="findNearbyAirports:"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

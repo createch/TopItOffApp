@@ -1,56 +1,47 @@
 //
-//  TOAirportsViewController.m
+//  TOStationsViewController.m
 //  TopItOff
 //
-//  Created by Lolcat on 08/06/2013.
+//  Created by Lolcat on 09/06/2013.
 //  Copyright (c) 2013 Createch. All rights reserved.
 //
 
-#import "TOAirportsViewController.h"
+#import "TOStationsViewController.h"
 
-@interface TOAirportsViewController ()
+@interface TOStationsViewController ()
 
 @end
 
-@implementation TOAirportsViewController
+@implementation TOStationsViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        
+        NSLog(@"Init with style");
     }
     return self;
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder {
-    
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
     self = [super initWithCoder:aDecoder];
     
-    if (self) {
-        JSONDecoder *decoder = [[JSONDecoder alloc] initWithParseOptions:JKParseOptionStrict];
-        NSString *path = [[NSBundle mainBundle] pathForResource: @"gas_json"
-                                                         ofType: @"json"];
-        NSError *dataError;
-        NSData *json = [[NSData alloc] initWithContentsOfFile:path
-                                                      options:0
-                                                        error:&dataError];
-        if (dataError)
-            NSLog(@"Error: %@", dataError);
-        
-        airportsData = [decoder mutableObjectWithData:json];
+    if (self)
+    {
+        NSLog(@"init the coder");
     }
     return self;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    NSLog(@"Hai hai hai!");
-    
+    NSLog(@"view did load");
 
-    // Uncomment the following line to preserve se  lection between presentations.
+    [super viewDidLoad];
+
+    // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -67,34 +58,24 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-//    NSLog(@"%d", [stationsData count]);
-    return 2;
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    if (section == 0)
-        return 1;
-    return [airportsData count];
-}
-
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    if (section == 0)
-        return @"Nearby Airports";
-    else
-        return @"All Airports";
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"airportCell";
+    static NSString *CellIdentifier = @"stationCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    UILabel *label = (UILabel *)[cell viewWithTag:0];
-//    NSLog(@"indexPath: %d", indexPath.row);
-//    NSLog(@"%@", );
-    label.text = [[airportsData allKeys] objectAtIndex:indexPath.row];
+    // Configure the cell...
     
     return cell;
 }
@@ -149,17 +130,6 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"9"]) {
-        
-        NSIndexPath *indexPath = self.tableView.indexPathForSelectedRow;
-        TOStationsViewController *stationsViewController = segue.destinationViewController;
-        stationsViewController.stations = [airportsData objectForKey:[[airportsData allKeys] objectAtIndex:indexPath.row]];
-        NSLog(@"%@", stationsViewController.stations);
- 
-    }
 }
 
 @end
