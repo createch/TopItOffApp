@@ -1,0 +1,1876 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mod",
+				"mod_group	(local, instance)"
+			],
+			[
+				"req",
+				"reqCount"
+			],
+			[
+				"time",
+				"timeBetween"
+			],
+			[
+				"playlist",
+				"playlistPos"
+			],
+			[
+				"curren",
+				"currentTrack"
+			],
+			[
+				"mediaElement",
+				"mediaelement"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"check_",
+				"check_output  (function)"
+			],
+			[
+				"user",
+				"User  (class)"
+			],
+			[
+				"re",
+				"Required"
+			],
+			[
+				"E",
+				"Exception	(builtin, class)"
+			],
+			[
+				"border-radi",
+				"border-bottom-right-radius"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"input",
+				"input-large"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"new",
+				"new_product1	(local, instance)"
+			],
+			[
+				"Produc",
+				"ProductForm"
+			],
+			[
+				"login",
+				"login_required	(imported, instance)"
+			],
+			[
+				"Sql",
+				"SQLAlchemyError	(imported, instance)"
+			],
+			[
+				"merge",
+				"mergeForward"
+			],
+			[
+				"block",
+				"blocknode"
+			],
+			[
+				"SQ",
+				"SQLAlchemyError"
+			],
+			[
+				"get",
+				"get_id"
+			],
+			[
+				"all",
+				"all_users	(imported, instance)"
+			],
+			[
+				"u",
+				"user_name	(local, instance)"
+			],
+			[
+				"pro",
+				"product_id	(local, instance)"
+			],
+			[
+				"game",
+				"gameWidth"
+			],
+			[
+				"update",
+				"updateObstacle"
+			],
+			[
+				"gr",
+				"yGrid"
+			],
+			[
+				"back",
+				"setBackgroundRepeat"
+			],
+			[
+				"on",
+				"onImageLoad"
+			],
+			[
+				"backgrou",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta name=\"format-detection\" content=\"telephone=no\" />\n        <meta name=\"viewport\" content=\"user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi\" />\n        <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n        <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/index.css\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/ratchet.css\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.css\" />\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.mod.css\">\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/screen.css\" />\n        <title>Top It Off</title>\n    </head>\n    <body>\n        <header class=\"bar-title\">\n          <h1 class=\"title\">Top It Off</h1>\n            <a class=\"button\" href=\"#\">\n            Left\n          </a>\n          <h1 class=\"title\">Title</h1>\n          <a class=\"button\" href=\"#\">\n            Right\n          </a>\n        </header>\n        <div class=\"splash-screen\">\n            <img class=\"logo\" src=\"img/crosshairs.png\" /><br />\n            <a class=\"button\">Find Airports Near Me</a>\n            <form>\n              <input type=\"search\" placeholder=\"Search\">\n              <a class=\"button button-block\">Choose existing</a>\n            </form>\n        </div>\n        <a class=\"button-positive button-block\">Block button</a>\n        <script src=\"lib/javascripts/modernizr.custom.15848.js\"></script>\n        <script src=\"lib/javascripts/zepto.min.js\"></script>\n        <script src=\"lib/javascripts/zepto.flickable.min.js\"></script>\n        <script src=\"lib/javascripts/lodash.min.js\"></script>\n        <script src=\"lib/javascripts/backbone-min.js\"></script>\n        <script type=\"text/javascript\" src=\"cordova.js\"></script>\n        <script type=\"text/javascript\" src=\"js/index.js\"></script>\n        <script type=\"text/javascript\">\n            app.initialize();\n        </script>\n    </body>\n</html>\n",
+			"file": "ios/www/index.html",
+			"file_size": 2203,
+			"file_write_time": 1370723863000000,
+			"settings":
+			{
+				"buffer_size": 2203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ios/www/sass/screen.sass",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"erun",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"un",
+				"Code Folding: Unfold All"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"reun",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"frun",
+				"Manpage: Open manual page for word under cursor"
+			],
+			[
+				"riun",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"ep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"epp",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"preivew",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"syntax jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"pre",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"epep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"php",
+				"Format: Php"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"tidy",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"ep",
+				"Package Control: Enable Package"
+			],
+			[
+				"jinja",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"toggle",
+				"Toggle Comment"
+			],
+			[
+				"jinj",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"liquid",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"theme",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"css",
+				"Tidy CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lolcat/dev/topitoff/topitoff.sublime-project",
+		"/Users/lolcat/dev/topitoff/ios/www/js/index.js",
+		"/Users/lolcat/dev/topitoff/Makefile",
+		"/Users/lolcat/dev/topitoff/ios/www/config.rb",
+		"/Users/lolcat/dev/topitoff/ios/www/.sass-cache/ae6399303e2df7bc94113f1cf1caf431479980e4/screen.scssc",
+		"/Users/lolcat/Downloads/junior-master/index.html",
+		"/Users/lolcat/dev/topitoff/ios/www/css/index.css",
+		"/Users/lolcat/dev/topitoff/.gitignore",
+		"/Users/lolcat/dev/topitoff/phonegap-2.8.0/VERSION",
+		"/Users/lolcat/dev/topitoff/phonegap-2.8.0/README.md",
+		"/Users/lolcat/dev/usf/algorithms/proj1/test-input.txt",
+		"/Users/lolcat/dev/usf/algorithms/proj1/test.py",
+		"/Users/lolcat/dev/usf/algorithms/proj1/dawoodjee.txt",
+		"/Users/lolcat/dev/usf/algorithms/proj1/output-sample.txt",
+		"/Users/lolcat/dev/usf/algorithms/proj1/input.txt",
+		"/Users/lolcat/dev/usf/algorithms/proj1/my-input.txt",
+		"/Users/lolcat/dev/usf/algorithms/proj1/sort.c",
+		"/Users/lolcat/dev/usf/algorithms/proj1/sort.py",
+		"/Users/lolcat/capture.txt",
+		"/Users/lolcat/dev/jenna/web/css/variables.css",
+		"/Users/lolcat/dev/jenna/web/js/main.js",
+		"/Users/lolcat/dev/jenna/jenna.sublime-workspace",
+		"/Users/lolcat/dev/jenna/web/sass/icons.scss",
+		"/Users/lolcat/dev/jenna/web/sass/screen.sass",
+		"/Users/lolcat/dev/jenna/web/index.html",
+		"/Users/lolcat/Desktop/phy.txt",
+		"/Users/lolcat/dev/jenna/web/css/icons.css",
+		"/Users/lolcat/dev/jenna/web/webfonts/fonts.css",
+		"/Users/lolcat/dev/jenna/Makefile",
+		"/Users/lolcat/dev/jenna/web/sass/variables.sass",
+		"/Users/lolcat/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/lolcat/dev/jenna/web/.htaccess",
+		"/Users/lolcat/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lolcat/dev/jenna/web/css/screen.css",
+		"/Users/lolcat/dev/jenna/web/js/plugins.js",
+		"/Users/lolcat/dev/fashionweek/public/static/styles/styles.css",
+		"/Users/lolcat/dev/jenna/web/sass/webfonts.sass",
+		"/Users/lolcat/dev/jenna/web/humans.txt",
+		"/Users/lolcat/dev/jenna/web/sass/sass-mediaqueries/_media-queries.scss",
+		"/Users/lolcat/dev/jenna/web/sass/print.sass",
+		"/Users/lolcat/dev/jenna/jenna.sublime-project",
+		"/Users/lolcat/dev/jenna/web/config.rb",
+		"/Users/lolcat/dev/jenna/web/sass/1140px/examples.scss",
+		"/Users/lolcat/dev/jenna/.gitignore",
+		"/Users/lolcat/dev/jenna/web/stylesheets/screen.css",
+		"/Users/lolcat/dev/jenna/web/sass/ie.sass",
+		"/Users/lolcat/dev/jenna/stop.py",
+		"/usr/local/bin/mon.py",
+		"/Users/lolcat/dev/usf/advanced-python/presentatoins/clif.txt",
+		"/Users/lolcat/Downloads/Hack-A-Thon/medexam/MEACCEPT.csv",
+		"/Users/lolcat/dev/icmp/pychecker/db-migrate/script.py.mako",
+		"/Users/lolcat/dev/icmp/pychecker/views.py",
+		"/Users/lolcat/dev/icmp/pychecker/templates/login.html",
+		"/Users/lolcat/dev/icmp/pychecker/models.py",
+		"/Users/lolcat/dev/icmp/pychecker/static/css/style.css",
+		"/Users/lolcat/dev/icmp/pychecker/templates/dashboard.html",
+		"/Users/lolcat/dev/icmp/pychecker/notify.py",
+		"/Users/lolcat/dev/icmp/runserver.py",
+		"/Users/lolcat/dev/icmp/pychecker/database.py",
+		"/Users/lolcat/dev/icmp/pychecker/__init__.py",
+		"/Users/lolcat/dev/icmp/pychecker/scraper.py",
+		"/Users/lolcat/dev/icmp/sftp-config.json",
+		"/Users/lolcat/dev/icmp/runserver.sh",
+		"/Users/lolcat/dev/icmp/pychecker/forms.py",
+		"/Users/lolcat/dev/icmp/pychecker/templates/debug.html",
+		"/Users/lolcat/dev/icmp/pychecker/templates/template_simple.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/icmp.sublime-project",
+		"/Users/lolcat/dev/icmp/pychecker/main.cpp",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/models.py",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/views.py",
+		"/Users/lolcat/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/elements.less",
+		"/Applications/MAMP/conf/apache/original/extra/httpd-multilang-errordoc.conf",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/page-header.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/type.less",
+		"/Users/lolcat/dev/tommy/wp/wp-admin/options-general.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/sidebar.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/header-top-navbar.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/navbar.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/base.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/utilities.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/js/main.js",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/lib/cleanup.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/head.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/lib/sidebar.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/grid.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/page.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/content.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/twentyeleven/inc/theme-options.css",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/bootstrap-responsive.css",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/page-custom.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/lib/scripts.php",
+		"/Users/lolcat/dev/logs/localhost-access_log",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/pager.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/lib/config.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/popovers.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/lib/init.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/header.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/app.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/breadcrumbs.less",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/functions.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/less/bootstrap.less",
+		"//<",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/index.php",
+		"/Users/lolcat/dev/tommy/tommy.sublime-project",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/lib/activation.php",
+		"/Users/lolcat/dev/tommy/wp/wp-includes/functions.wp-scripts.php",
+		"/Users/lolcat/dev/logs/localhost-error_log",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/templates/searchform.php",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/img/fb.png",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/app.css",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/bootstrap.css",
+		"/Users/lolcat/dev/tommy/wp/wp-content/themes/retlehs-roots-1d7e99f/assets/css/editor-style.css",
+		"/Users/lolcat/dev/tommy/wp/wp-config-sample.php",
+		"/Users/lolcat/dev/tommy/wp/wp-config.php",
+		"/Users/lolcat/dev/tommy/README.md",
+		"/Users/lolcat/dev/tommy/tommy.sublime-workspace",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Users/lolcat/dev/tommy/.gitignore",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/login.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/register.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/users.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/simple.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/template_simple.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/dashboard.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/templates/index.html",
+		"/Users/lolcat/dev/PriceChecker.py/pychecker/forms.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"capture.txt",
+			".",
+			"",
+			"../",
+			"../../",
+			"../",
+			"../..",
+			".",
+			"../",
+			"."
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fout\\.",
+			"print",
+			"&quot;",
+			"websocket",
+			"reqCount",
+			"handle_get",
+			"reqCou",
+			"printf",
+			"tid",
+			"\\n{2}",
+			"printf",
+			"32",
+			"renderer",
+			"\\n",
+			"css",
+			"opa",
+			"aopa",
+			"op",
+			"opa",
+			"opacity",
+			"song",
+			"gothic",
+			"fade",
+			"span",
+			"fade",
+			"fadeOut",
+			"fadeIn",
+			"fadein",
+			"play",
+			"rgba(105,193,207,1)",
+			";",
+			"none",
+			"song",
+			";",
+			"$ribbon",
+			"ratio",
+			"< ",
+			".replace(\"px\", \"\")",
+			"ribbon",
+			"play(",
+			"play",
+			".play",
+			"play",
+			";",
+			"togg",
+			"control",
+			"toggle",
+			"player =",
+			"player",
+			",",
+			"player.",
+			"newS",
+			"playListPOs",
+			"currentTrack",
+			";",
+			"progress",
+			"track",
+			"\"",
+			"../media",
+			".webm",
+			"webm",
+			"ogg",
+			"border",
+			"\\n",
+			"class=",
+			"href=\"\"",
+			"img",
+			"\\.",
+			":hover",
+			"imgs",
+			"png",
+			"pn",
+			"instagram.png\npinterest.png\ntwitter.png\nyt.png\nfb.png",
+			"bor",
+			"red",
+			"container",
+			";",
+			"os",
+			"notifyPrice",
+			"regex",
+			"request.",
+			"request.form",
+			"label='url',",
+			"form.[a-z]*,",
+			"value=",
+			"print",
+			"purple",
+			"simg",
+			"update",
+			"cwd",
+			"notify",
+			"=",
+			"product-name",
+			"name",
+			"db_session",
+			"dbsession",
+			"1",
+			"update",
+			"lock",
+			"valid_product",
+			"path",
+			"scrape",
+			"now",
+			"date",
+			"date_",
+			"date",
+			"date_",
+			"date",
+			"login_man",
+			"dashboard",
+			"LoginManager",
+			"dash",
+			"dashbaord",
+			"notify",
+			"config",
+			"alembic",
+			"update",
+			"tab",
+			":1",
+			":",
+			"update",
+			"scraper",
+			"reque",
+			"gradient",
+			"25",
+			"10",
+			"nav-sidbear",
+			"body >"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"extends \"template_normal",
+			"pychecker"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"asi": true,
+								"bitwise": true,
+								"boss": false,
+								"browser": true,
+								"curly": false,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": false,
+								"es5": false,
+								"esnext": false,
+								"evil": false,
+								"expr": false,
+								"forin": true,
+								"funcscope": false,
+								"globalstrict": false,
+								"immed": true,
+								"indent": 4.0,
+								"iterator": false,
+								"jquery": true,
+								"lastsemic": false,
+								"latedef": true,
+								"laxbreak": false,
+								"laxcomma": false,
+								"loopfunc": false,
+								"multistr": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": true,
+								"nonstandard": false,
+								"onecase": false,
+								"onevar": false,
+								"plusplus": false,
+								"predef":
+								[
+									"confirm",
+									"alert",
+									"jasmine",
+									"spyOn",
+									"it",
+									"console",
+									"describe",
+									"expect",
+									"beforeEach",
+									"waits",
+									"waitsFor",
+									"runs",
+									"chrome",
+									"Game",
+									"Scene",
+									"enchant",
+									"Sprite",
+									"Class",
+									"Canvas"
+								],
+								"proto": false,
+								"prototypejs": false,
+								"regexdash": false,
+								"regexp": true,
+								"scripturl": false,
+								"shadow": false,
+								"smarttabs": true,
+								"strict": false,
+								"sub": false,
+								"supernew": false,
+								"trailing": true,
+								"undef": true,
+								"white": false,
+								"withstmt": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ios/www/index.html",
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"asi": true,
+								"bitwise": true,
+								"boss": false,
+								"browser": true,
+								"curly": false,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": false,
+								"es5": false,
+								"esnext": false,
+								"evil": false,
+								"expr": false,
+								"forin": true,
+								"funcscope": false,
+								"globalstrict": false,
+								"immed": true,
+								"indent": 4.0,
+								"iterator": false,
+								"jquery": true,
+								"lastsemic": false,
+								"latedef": true,
+								"laxbreak": false,
+								"laxcomma": false,
+								"loopfunc": false,
+								"multistr": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": true,
+								"nonstandard": false,
+								"onecase": false,
+								"onevar": false,
+								"plusplus": false,
+								"predef":
+								[
+									"confirm",
+									"alert",
+									"jasmine",
+									"spyOn",
+									"it",
+									"console",
+									"describe",
+									"expect",
+									"beforeEach",
+									"waits",
+									"waitsFor",
+									"runs",
+									"chrome",
+									"Game",
+									"Scene",
+									"enchant",
+									"Sprite",
+									"Class",
+									"Canvas"
+								],
+								"proto": false,
+								"prototypejs": false,
+								"regexdash": false,
+								"regexp": true,
+								"scripturl": false,
+								"shadow": false,
+								"smarttabs": true,
+								"strict": false,
+								"sub": false,
+								"supernew": false,
+								"trailing": true,
+								"undef": true,
+								"white": false,
+								"withstmt": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ios/www/sass/screen.sass",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"asi": true,
+								"bitwise": true,
+								"boss": false,
+								"browser": true,
+								"curly": false,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": false,
+								"es5": false,
+								"esnext": false,
+								"evil": false,
+								"expr": false,
+								"forin": true,
+								"funcscope": false,
+								"globalstrict": false,
+								"immed": true,
+								"indent": 4.0,
+								"iterator": false,
+								"jquery": true,
+								"lastsemic": false,
+								"latedef": true,
+								"laxbreak": false,
+								"laxcomma": false,
+								"loopfunc": false,
+								"multistr": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": true,
+								"nonstandard": false,
+								"onecase": false,
+								"onevar": false,
+								"plusplus": false,
+								"predef":
+								[
+									"confirm",
+									"alert",
+									"jasmine",
+									"spyOn",
+									"it",
+									"console",
+									"describe",
+									"expect",
+									"beforeEach",
+									"waits",
+									"waitsFor",
+									"runs",
+									"chrome",
+									"Game",
+									"Scene",
+									"enchant",
+									"Sprite",
+									"Class",
+									"Canvas"
+								],
+								"proto": false,
+								"prototypejs": false,
+								"regexdash": false,
+								"regexp": true,
+								"scripturl": false,
+								"shadow": false,
+								"smarttabs": true,
+								"strict": false,
+								"sub": false,
+								"supernew": false,
+								"trailing": true,
+								"undef": true,
+								"white": false,
+								"withstmt": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.sftp":
+	{
+		"height": 61.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"/Users/lolcat/dev/topitoff/ios/www/index.html"
+			],
+			[
+				".scss",
+				"www/.sass-cache/ae6399303e2df7bc94113f1cf1caf431479980e4/screen.scssc"
+			],
+			[
+				"config",
+				"www/config.rb"
+			],
+			[
+				"make",
+				"topitoff/Makefile"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"test",
+				"test-input.txt"
+			],
+			[
+				"dawo",
+				"dawoodjee.txt"
+			],
+			[
+				"output",
+				"output-sample.txt"
+			],
+			[
+				"int",
+				"input.txt"
+			],
+			[
+				"input",
+				"input.txt"
+			],
+			[
+				"tes",
+				"test-input.txt"
+			],
+			[
+				"sort",
+				"sort.py"
+			],
+			[
+				"daw",
+				"dawoodjee.txt"
+			],
+			[
+				"inpu",
+				"input.txt"
+			],
+			[
+				"aw",
+				"dawoodjee.txt"
+			],
+			[
+				"outp",
+				"output-sample.txt"
+			],
+			[
+				"models",
+				"pychecker/models.py"
+			],
+			[
+				"main",
+				"web/js/main.js"
+			],
+			[
+				"defa",
+				"default.css"
+			],
+			[
+				"varia",
+				"web/sass/variables.sass"
+			],
+			[
+				"sass",
+				"web/sass/screen.sass"
+			],
+			[
+				"icon",
+				"web/sass/icons.scss"
+			],
+			[
+				"ind",
+				"jenna/web/index.html"
+			],
+			[
+				"screen",
+				"web/sass/screen.sass"
+			],
+			[
+				"scree",
+				"web/sass/screen.sass"
+			],
+			[
+				"in",
+				"jenna/web/index.html"
+			],
+			[
+				"scre",
+				"web/css/screen.css"
+			],
+			[
+				"inde",
+				"jenna/web/index.html"
+			],
+			[
+				".ht",
+				"jenna/web/.htaccess"
+			],
+			[
+				"icons",
+				"web/sass/icons.scss"
+			],
+			[
+				"views",
+				"pychecker/views.py"
+			],
+			[
+				"view",
+				"pychecker/views.py"
+			],
+			[
+				"data",
+				"pychecker/database.py"
+			],
+			[
+				"init",
+				"pychecker/__init__.py"
+			],
+			[
+				"not",
+				"pychecker/notify.py"
+			],
+			[
+				"scraper",
+				"pychecker/scraper.py"
+			],
+			[
+				"dsc",
+				"pychecker/db-migrate/script.py.mako"
+			],
+			[
+				"dash",
+				"pychecker/templates/dashboard.html"
+			],
+			[
+				"v",
+				"pychecker/views.py"
+			],
+			[
+				"forms",
+				"pychecker/forms.py"
+			],
+			[
+				"register",
+				"pychecker/templates/register.html"
+			],
+			[
+				"ciews",
+				"pychecker/views.py"
+			],
+			[
+				"noti",
+				"pychecker/notify.py"
+			],
+			[
+				"call",
+				"pychecker/templates/login.html"
+			],
+			[
+				"model",
+				"pychecker/models.py"
+			],
+			[
+				"scrap",
+				"pychecker/scraper.py"
+			],
+			[
+				"mode",
+				"pychecker/models.py"
+			],
+			[
+				"vi",
+				"pychecker/views.py"
+			],
+			[
+				"confi",
+				"pychecker/config.py"
+			],
+			[
+				"style",
+				"pychecker/static/css/style.css"
+			],
+			[
+				"css",
+				"pychecker/static/css/style.css"
+			],
+			[
+				"dashboard",
+				"pychecker/templates/dashboard.html"
+			],
+			[
+				"dashb",
+				"pychecker/templates/dashboard.html"
+			],
+			[
+				"",
+				"pychecker/database.py"
+			],
+			[
+				"database",
+				"pychecker/database.py"
+			],
+			[
+				"simple",
+				"pychecker/templates/template_simple.html"
+			],
+			[
+				"scra",
+				"pychecker/scraper.py"
+			],
+			[
+				"scarper",
+				"/Users/lolcat/dev/PriceChecker.py/pychecker/icmp.sublime-project"
+			],
+			[
+				"sc",
+				"pychecker/scraper.py"
+			],
+			[
+				"vie",
+				"pychecker/views.py"
+			],
+			[
+				"element",
+				"retlehs-roots-1d7e99f/assets/css/less/elements.less"
+			],
+			[
+				"container",
+				"apache/original/extra/httpd-multilang-errordoc.conf"
+			],
+			[
+				"base",
+				"retlehs-roots-1d7e99f/base.php"
+			],
+			[
+				"page-h",
+				"retlehs-roots-1d7e99f/templates/page-header.php"
+			],
+			[
+				"var",
+				"retlehs-roots-1d7e99f/assets/css/less/variables.less"
+			],
+			[
+				"headertop",
+				"retlehs-roots-1d7e99f/templates/header-top-navbar.php"
+			],
+			[
+				"header-top",
+				"retlehs-roots-1d7e99f/templates/header-top-navbar.php"
+			],
+			[
+				"age",
+				"wp/wp-admin/options-general.php"
+			],
+			[
+				"navbar",
+				"retlehs-roots-1d7e99f/assets/css/less/navbar.less"
+			],
+			[
+				"ap",
+				"retlehs-roots-1d7e99f/assets/css/app.less"
+			],
+			[
+				"utilities",
+				"retlehs-roots-1d7e99f/assets/css/less/utilities.less"
+			],
+			[
+				"bootstrap",
+				"retlehs-roots-1d7e99f/assets/css/less/bootstrap.less"
+			],
+			[
+				"vari",
+				"retlehs-roots-1d7e99f/assets/css/less/variables.less"
+			],
+			[
+				"app",
+				"retlehs-roots-1d7e99f/assets/css/app.less"
+			],
+			[
+				"a",
+				"retlehs-roots-1d7e99f/assets/css/app.less"
+			],
+			[
+				"sidebar",
+				"retlehs-roots-1d7e99f/templates/sidebar.php"
+			],
+			[
+				"head",
+				"retlehs-roots-1d7e99f/templates/head.php"
+			],
+			[
+				"functions",
+				"retlehs-roots-1d7e99f/functions.php"
+			],
+			[
+				"sidear",
+				"retlehs-roots-1d7e99f/lib/sidebar.php"
+			],
+			[
+				"grid",
+				"retlehs-roots-1d7e99f/assets/css/less/grid.less"
+			],
+			[
+				"sideb",
+				"retlehs-roots-1d7e99f/templates/sidebar.php"
+			],
+			[
+				"page",
+				"retlehs-roots-1d7e99f/page.php"
+			],
+			[
+				"content",
+				"retlehs-roots-1d7e99f/templates/content.php"
+			],
+			[
+				"header",
+				"retlehs-roots-1d7e99f/templates/header-top-navbar.php"
+			],
+			[
+				"ty",
+				"retlehs-roots-1d7e99f/assets/css/less/type.less"
+			],
+			[
+				"typ",
+				"retlehs-roots-1d7e99f/assets/css/less/type.less"
+			],
+			[
+				"top-navbar",
+				"retlehs-roots-1d7e99f/templates/header-top-navbar.php"
+			],
+			[
+				"top",
+				"wp/wp-content/themes/twentyeleven/inc/theme-options.css"
+			],
+			[
+				"page-",
+				"retlehs-roots-1d7e99f/page-custom.php"
+			],
+			[
+				"footer",
+				"retlehs-roots-1d7e99f/templates/footer.php"
+			],
+			[
+				"logo",
+				"logs/localhost-access_log"
+			],
+			[
+				"type",
+				"retlehs-roots-1d7e99f/assets/css/less/type.less"
+			],
+			[
+				"lesspage",
+				"retlehs-roots-1d7e99f/assets/css/less/pager.less"
+			],
+			[
+				"nav",
+				"retlehs-roots-1d7e99f/assets/css/less/navbar.less"
+			],
+			[
+				"boot",
+				"retlehs-roots-1d7e99f/assets/css/less/bootstrap.less"
+			],
+			[
+				"variab",
+				"retlehs-roots-1d7e99f/assets/css/less/variables.less"
+			],
+			[
+				"navles",
+				"retlehs-roots-1d7e99f/assets/css/less/navbar.less"
+			],
+			[
+				"vai",
+				"retlehs-roots-1d7e99f/assets/css/less/variables.less"
+			],
+			[
+				"app.ess",
+				"retlehs-roots-1d7e99f/assets/css/app.less"
+			],
+			[
+				"app.less",
+				"retlehs-roots-1d7e99f/assets/css/app.less"
+			],
+			[
+				"app.les",
+				"retlehs-roots-1d7e99f/assets/css/app.less"
+			],
+			[
+				"login",
+				"pychecker/templates/login.html"
+			],
+			[
+				"dat",
+				"pychecker/database.py"
+			],
+			[
+				"template",
+				"pychecker/templates/template_normal.html"
+			],
+			[
+				"stye",
+				"pychecker/static/css/style.css"
+			],
+			[
+				"st",
+				"pychecker/static/css/style.css"
+			],
+			[
+				"boil",
+				"pychecker/templates/boilerplate.html"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"vies",
+				"pychecker/views.py"
+			],
+			[
+				"help",
+				"pychecker/templates/helpers.html"
+			],
+			[
+				"form",
+				"pychecker/forms.py"
+			],
+			[
+				"lay",
+				"pychecker/templates/layout.html"
+			],
+			[
+				"layou",
+				"pychecker/templates/layout.html"
+			],
+			[
+				"layout",
+				"pychecker/templates/layout.html"
+			],
+			[
+				"dashba",
+				"pychecker/templates/dashboard.html"
+			],
+			[
+				"user",
+				"pychecker/templates/users.html"
+			],
+			[
+				"mod",
+				"pychecker/models.py"
+			],
+			[
+				"moel",
+				"pychecker/models.py"
+			],
+			[
+				"users",
+				"pychecker/templates/users.html"
+			],
+			[
+				"da",
+				"pychecker/templates/dashboard.html"
+			],
+			[
+				"block",
+				"blocknode.h"
+			],
+			[
+				"_re",
+				"pychecker/templates/_formhelpers.html"
+			],
+			[
+				"datab",
+				"pychecker/database.py"
+			],
+			[
+				"spons",
+				"sponsor.md"
+			],
+			[
+				"boostra",
+				"pychecker/static/css/bootstrap-responsive.css"
+			],
+			[
+				"bootstra",
+				"pychecker/static/css/bootstrap.css"
+			],
+			[
+				"serif",
+				"assets/bourbon/addons/_timing-functions.scss"
+			],
+			[
+				"judg",
+				"judging.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true
+}

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TOViewController : UIViewController
+- (IBAction)findNearbyAirports:(id)sender;
 
 @end
