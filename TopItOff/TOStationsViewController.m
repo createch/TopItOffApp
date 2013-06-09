@@ -69,6 +69,8 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
+    NSLog(@"stations: %@", stations);
+//    NSLog(@"count: %d", stations[@"stations"]);
     return [stations count];
 }
 
@@ -76,6 +78,11 @@
 {
     static NSString *CellIdentifier = @"stationCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    UILabel *label = (UILabel *)[cell viewWithTag:0];
+//    label.text = [stations objectAtIndex:indexPath.row];
+    NSLog(@"station name: %@", stations);
+
     
     // Configure the cell...
     

@@ -171,7 +171,7 @@
                                     <constraint firstItem="PNA-Eb-iQE" firstAttribute="top" secondItem="QVm-S1-z9D" secondAttribute="top" constant="11" id="qxs-Tl-CSv"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="ewS-tM-2N4" kind="push" id="gpS-TA-YUn"/>
+                                    <segue destination="ewS-tM-2N4" kind="push" identifier="showStations" id="gpS-TA-YUn"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -209,23 +209,6 @@
             <point key="canvasLocation" x="-272" y="-480"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="TOAirportsViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TOAirportsViewController.h"/>
-        </class>
-        <class className="TOStationsViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TOStationsViewController.h"/>
-        </class>
-        <class className="TOViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TOViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="findNearbyAirports:"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

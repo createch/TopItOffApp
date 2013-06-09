@@ -10,6 +10,6 @@
 
 @interface TOStationsViewController : UITableViewController
 
-@property NSMutableArray *stations;
+@property NSMutableDictionary *stations;
 
 @end

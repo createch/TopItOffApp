@@ -152,12 +152,12 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"9"]) {
+    if ([segue.identifier isEqualToString:@"showStations"]) {
         
         NSIndexPath *indexPath = self.tableView.indexPathForSelectedRow;
         TOStationsViewController *stationsViewController = segue.destinationViewController;
         stationsViewController.stations = [airportsData objectForKey:[[airportsData allKeys] objectAtIndex:indexPath.row]];
-        NSLog(@"%@", stationsViewController.stations);
+//        NSLog(@"%@", stationsViewController.stations);
  
     }
 }
